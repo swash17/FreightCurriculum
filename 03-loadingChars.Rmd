@@ -1,0 +1,5 @@
+# Loading Characteristics
+
+## Maximum load without permit, max load with permit, route restrictions, time of day restrictions
+
+## Weigh stations, weigh-in-motion

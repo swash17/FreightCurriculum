@@ -1,0 +1,31 @@
+# Introduction {#intro}
+
+The movement of freight is a key foundation to the functioning of our society and economy...
+
+A sample math equation $a^2 + b^2 = c^2$
+
+## Applicable Federal Agencies {#intro-agencies}
+
+* BTS - Bureau of Transportation Statistics (https://www.bts.gov/)
+* FHWA - Federal Highway Administration (https://www.fhwa.dot.gov/)
+* FMCSA - Federal Motor Carrier Safety Administration (https://www.fmcsa.dot.gov/)
+* NHTSA - National Highway Traffic Safety Administration (https://www.nhtsa.gov/)
+* USDOT - United States Department of Transportation (https://www.transportation.gov/)
+
+
+## Freight movement statistics {#intro-statistics}
+
+**Weight of shipments by transportation mode**
+
+```{r FreightByWeightImage, echo=FALSE, fig.cap='Weight of shipments by transportation mode', fig.width=6, fig.align='center'}
+knitr::include_graphics("./Images/FreightShipments_Weight.jpg")
+```
+
+**Value of shipments by transportation mode**
+
+```{r FreightByValueImage, echo=FALSE, fig.cap='Value of shipments by transportation mode', fig.width=6, fig.align='center'}
+knitr::include_graphics("./Images/FreightShipments_Value.jpg")
+```
+
+Reference BTS
+
