@@ -3,6 +3,8 @@ fig:FreightByWeightImage
 fig:FreightByValueImage
 fig:VehClassesImage
 tab:Example
+fig:VehClassesImage2
+fig:Freightshipments
 preface
 intro
 intro-agencies
