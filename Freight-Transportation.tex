@@ -6,8 +6,8 @@
 ]{book}
 \usepackage{amsmath,amssymb}
 \usepackage{lmodern}
-\usepackage{ifxetex,ifluatex}
-\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+\usepackage{iftex}
+\ifPDFTeX
   \usepackage[T1]{fontenc}
   \usepackage[utf8]{inputenc}
   \usepackage{textcomp} % provide euro and other symbols
@@ -33,54 +33,6 @@
   \KOMAoptions{parskip=half}}
 \makeatother
 \usepackage{xcolor}
-\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
-\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
-\hypersetup{
-  pdftitle={Freight Transportation},
-  pdfauthor={Scott S. Washburn, Evangelos Kaiser, Lili Du},
-  hidelinks,
-  pdfcreator={LaTeX via pandoc}}
-\urlstyle{same} % disable monospaced font for URLs
-\usepackage{color}
-\usepackage{fancyvrb}
-\newcommand{\VerbBar}{|}
-\newcommand{\VERB}{\Verb[commandchars=\\\{\}]}
-\DefineVerbatimEnvironment{Highlighting}{Verbatim}{commandchars=\\\{\}}
-% Add ',fontsize=\small' for more characters per line
-\usepackage{framed}
-\definecolor{shadecolor}{RGB}{248,248,248}
-\newenvironment{Shaded}{\begin{snugshade}}{\end{snugshade}}
-\newcommand{\AlertTok}[1]{\textcolor[rgb]{0.94,0.16,0.16}{#1}}
-\newcommand{\AnnotationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
-\newcommand{\AttributeTok}[1]{\textcolor[rgb]{0.77,0.63,0.00}{#1}}
-\newcommand{\BaseNTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
-\newcommand{\BuiltInTok}[1]{#1}
-\newcommand{\CharTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
-\newcommand{\CommentTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textit{#1}}}
-\newcommand{\CommentVarTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
-\newcommand{\ConstantTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
-\newcommand{\ControlFlowTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{\textbf{#1}}}
-\newcommand{\DataTypeTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{#1}}
-\newcommand{\DecValTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
-\newcommand{\DocumentationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
-\newcommand{\ErrorTok}[1]{\textcolor[rgb]{0.64,0.00,0.00}{\textbf{#1}}}
-\newcommand{\ExtensionTok}[1]{#1}
-\newcommand{\FloatTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
-\newcommand{\FunctionTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
-\newcommand{\ImportTok}[1]{#1}
-\newcommand{\InformationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
-\newcommand{\KeywordTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{\textbf{#1}}}
-\newcommand{\NormalTok}[1]{#1}
-\newcommand{\OperatorTok}[1]{\textcolor[rgb]{0.81,0.36,0.00}{\textbf{#1}}}
-\newcommand{\OtherTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{#1}}
-\newcommand{\PreprocessorTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textit{#1}}}
-\newcommand{\RegionMarkerTok}[1]{#1}
-\newcommand{\SpecialCharTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
-\newcommand{\SpecialStringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
-\newcommand{\StringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
-\newcommand{\VariableTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
-\newcommand{\VerbatimStringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
-\newcommand{\WarningTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
 \usepackage{longtable,booktabs,array}
 \usepackage{calc} % for calculating minipage widths
 % Correct order of tables after \paragraph or \subparagraph
@@ -116,15 +68,23 @@
   \thm@postskip=\thm@preskip
 }
 \makeatother
-\ifluatex
+\ifLuaTeX
   \usepackage{selnolig}  % disable illegal ligatures
 \fi
 \usepackage[]{natbib}
 \bibliographystyle{apalike}
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same} % disable monospaced font for URLs
+\hypersetup{
+  pdftitle={Introduction to Freight Transportation},
+  pdfauthor={Scott S. Washburn, University of Florida, https://swash.essie.ufl.edu; Evangelos Kaiser, Florida Atlantic University, http://www.eng.fau.edu/directory/faculty/kaisar/; Lili Du, University of Florida, https://www.essie.ufl.edu/people/name/lili-du/},
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
 
-\title{Freight Transportation}
-\author{Scott S. Washburn, Evangelos Kaiser, Lili Du}
-\date{2021-06-09}
+\title{Introduction to Freight Transportation}
+\author{Scott S. Washburn, University of Florida, \url{https://swash.essie.ufl.edu} \and Evangelos Kaiser, Florida Atlantic University, \url{http://www.eng.fau.edu/directory/faculty/kaisar/} \and Lili Du, University of Florida, \url{https://www.essie.ufl.edu/people/name/lili-du/}}
+\date{2023-04-18}
 
 \begin{document}
 \maketitle
@@ -136,29 +96,69 @@
 \hypertarget{preface}{%
 \chapter{Preface}\label{preface}}
 
-This material is intended for an introduction to freight transportation course.
+This material is intended for an introduction to freight transportation course.Initial development of this material was sponsored by the Freight Mobility Research Institute (\url{http://eng.fau.edu/research/fmri/}).
 
-\begin{Shaded}
-\begin{Highlighting}[]
-\FunctionTok{install.packages}\NormalTok{(}\StringTok{"bookdown"}\NormalTok{)}
-\CommentTok{\# or the development version}
-\CommentTok{\# devtools::install\_github("rstudio/bookdown")}
-\end{Highlighting}
-\end{Shaded}
+An example figure is shown in Figure \ref{fig:PortImage}
 
-\includegraphics{Images/PortOfMiami.bmp} \includegraphics{Images/PortOfMiami.bmp} \includegraphics{Images/PortOfMiami.bmp}
+\begin{figure}
+
+{\centering \includegraphics[width=0.9\linewidth]{./Images/PortOfMiami} 
+
+}
+
+\caption{Port of Miami Partial Schematic}\label{fig:PortImage}
+\end{figure}
 
 \hypertarget{intro}{%
 \chapter{Introduction}\label{intro}}
 
 The movement of freight is a key foundation to the functioning of our society and economy\ldots{}
 
+A sample math equation \(a^2 + b^2 = c^2\)
+
+\hypertarget{intro-agencies}{%
+\section{Applicable Federal Agencies}\label{intro-agencies}}
+
+\begin{itemize}
+\tightlist
+\item
+  BTS - Bureau of Transportation Statistics (\url{https://www.bts.gov/})
+\item
+  FHWA - Federal Highway Administration (\url{https://www.fhwa.dot.gov/})
+\item
+  FMCSA - Federal Motor Carrier Safety Administration (\url{https://www.fmcsa.dot.gov/})
+\item
+  NHTSA - National Highway Traffic Safety Administration (\url{https://www.nhtsa.gov/})
+\item
+  USDOT - United States Department of Transportation (\url{https://www.transportation.gov/})
+\end{itemize}
+
 \hypertarget{intro-statistics}{%
 \section{Freight movement statistics}\label{intro-statistics}}
 
-Table with tons of freight moved per year by mode
+\textbf{Weight of shipments by transportation mode}
 
-Reference Bureau of Transportation Statistics (BTS)
+\begin{figure}
+
+{\centering \includegraphics{./Images/FreightShipments_Weight} 
+
+}
+
+\caption{Weight of shipments by transportation mode}\label{fig:FreightByWeightImage}
+\end{figure}
+
+\textbf{Value of shipments by transportation mode}
+
+\begin{figure}
+
+{\centering \includegraphics{./Images/FreightShipments_Value} 
+
+}
+
+\caption{Value of shipments by transportation mode}\label{fig:FreightByValueImage}
+\end{figure}
+
+Reference BTS
 
 \hypertarget{VehChars}{%
 \chapter{Freight Vehicle Characteristics}\label{VehChars}}
@@ -166,8 +166,58 @@ Reference Bureau of Transportation Statistics (BTS)
 \hypertarget{VehChars-Classes}{%
 \section{FHWA truck classifications}\label{VehChars-Classes}}
 
+The FHWA designated vehicle classifications are shown in Figure \ref{fig:VehClassesImage}
+
+\begin{figure}
+
+{\centering \includegraphics{./Images/VehClassesFHWA} 
+
+}
+
+\caption{FHWA Vehicle Classifications}\label{fig:VehClassesImage}
+\end{figure}
+
+Source: FHWA (2019). Traffic Monitoring Guide, Appendix C. Vehicle Types. USDOT. Washington, DC. URL: \url{https://www.fhwa.dot.gov/policyinformation/tmguide/tmg_2013/vehicle-types.cfm}.
+
 \hypertarget{types-of-trailers}{%
 \section{Types of trailers}\label{types-of-trailers}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Flatbed Trailer
+\item
+  Dry Vans
+\item
+  Refrigerated Trailer
+\item
+  Lowboy Trailers
+\item
+  Step Deck Trailers
+\item
+  Etc.
+\end{enumerate}
+
+\url{https://truckfreighter.com/tractor-types-trucks-trailers}
+
+An example table is shown in Table \ref{tab:Example}
+
+\begin{longtable}[]{@{}cc@{}}
+\caption{\label{tab:Example} A sample table}\tabularnewline
+\toprule()
+Variable & Value (\%) \\
+\midrule()
+\endfirsthead
+\toprule()
+Variable & Value (\%) \\
+\midrule()
+\endhead
+X & 25 \\
+Y & 50 \\
+Z & 75 \\
+\bottomrule()
+\end{longtable}
 
 \hypertarget{performance-characteristics-accel-decel-speed-governing-etc.}{%
 \section{Performance characteristics (accel, decel, speed governing, etc.)}\label{performance-characteristics-accel-decel-speed-governing-etc.}}
@@ -211,6 +261,20 @@ Reference Bureau of Transportation Statistics (BTS)
 \hypertarget{parking-availability-technologyinformation-systems}{%
 \section{parking availability technology/information systems}\label{parking-availability-technologyinformation-systems}}
 
-  \bibliography{book.bib,packages.bib}
+\hypertarget{port-issues}{%
+\chapter{Port issues}\label{port-issues}}
+
+\hypertarget{jayisha-das}{%
+\section{Jayisha Das}\label{jayisha-das}}
+
+Bureau of Transportation Statistics (2014). Freight Transportation. USDOT. Washington, DC. URL: \url{https://www.bts.gov/topics/freight-transportation}.
+
+FHWA (2019). Traffic Monitoring Guide, Appendix C. Vehicle Types. USDOT. Washington, DC. URL: \url{https://www.fhwa.dot.gov/policyinformation/tmguide/tmg_2013/vehicle-types.cfm}.
+
+Mannering, Fred L. and Washburn, Scott S. (2019). Principles of Highway Engineering and Traffic Analysis, 7th Edition. John Wiley and Sons, Hoboken, NJ.
+
+Transportation Research Board (2016). Highway Capacity Manual, Sixth Edition: A Guide for Multimodal Mobility Analysis. Transportation Research Board, Washington, DC.
+
+  \bibliography{references.bib}
 
 \end{document}
