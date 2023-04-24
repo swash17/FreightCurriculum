@@ -47,3 +47,12 @@ Reference BTS
 ```{r Figure 2.3, echo=FALSE, fig.cap='U.S. Ton-Miles of Freight', fig.width=6, fig.align='center'}
 knitr::include_graphics("./Images/jayisha/U.S. Ton-Miles of Freight.jpg")
 ```
+Source: https://www.bts.gov/content/us-ton-miles-freight
+
+
+```{r Figure 2.4, echo=FALSE, fig.cap='Historical and Forecasted Mode Share of Ton-miles, 1990–2040', fig.width=4, fig.align='center'}
+knitr::include_graphics("./Images/jayisha/Historical and Forecasted Mode Share of Ton-miles, 1990–2040.jpg")
+```
+Source: 2016 Freight Quick Facts Report, DOT, Draft National Freight Strategic Plan, BTS Special Tabulation
+
+
