@@ -9,6 +9,7 @@ preface
 intro
 intro-agencies
 intro-statistics
+intro-Freight
 VehChars
 VehChars-Classes
 types-of-trailers
