@@ -111,6 +111,9 @@ knitr::include_graphics("./Images/jayisha/Freight Transportation Services Index 
 ## Growing Freight Movement {#intro-Freight_movement}
  
 1) Improvements in railroad productivity resulted primarily from deregulation, divestiture of uneconomic lines, reductions in the labor force, and changes in technology and logistics. Productivity improvements in trucking resulted primarily from public investments in a high-quality national road network and deregulation.
+```{r}
+
+```
 
 2) The volume of freight moved by the U.S. transportation system has grown dramatically in recent decades and is projected to increase nearly 70 percent by 2020.
 
@@ -128,6 +131,11 @@ knitr::include_graphics("./Images/jayisha/Freight Transportation Services Index 
 
 9) Trucks transported the vast majority of freight by both weight and value in 2018 (68% and 73%, respectively). While pipelines and rail together accounted for over 25% of freight tonnage, they accounted for just over 12% of freight value. Domestic freight movement in 2018 totaled 16.5 billion tons with a total value of $14.8 billion.
 
+```{r Figure 4.1, echo=FALSE, fig.cap='Freight by Mode, 2018', fig.width=4, fig.align='center'}
+knitr::include_graphics("./Images/jayisha/Freight by Mode, 2018.jpg")
+```
+
+Source:U.S. Department of Transportation,Freight Analysis Framework, Version 4.5.1, December 2019. Data Tabulation Tool queried July 2, 2020.
 
 
 
