@@ -12,6 +12,7 @@ intro-statistics
 intro-Freight
 ntro-Freight_Index
 intro-Freight_economy
+intro-Freight_movement
 VehChars
 VehChars-Classes
 types-of-trailers
