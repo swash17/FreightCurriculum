@@ -73,7 +73,7 @@ Source: 2016 Freight Quick Facts Report, DOT, Draft National Freight Strategic P
 
 3) The volume of freight moved declined moderately from August 2019 through February 2020, then collapsed with the arrival of COVID-19 in March but quickly rebounded by summer (Figure 3.1).
 
-```{r Figure 3.1, echo=FALSE, fig.cap='Freight Transportation Services Index 2016–2021', fig.width=4, fig.align='center'}
+```{r Figure 2.5, echo=FALSE, fig.cap='Freight Transportation Services Index 2016–2021', fig.width=4, fig.align='center'}
 knitr::include_graphics("./Images/jayisha/Freight Transportation Services Index 2016–2021.jpg")
 ```
 
@@ -131,7 +131,7 @@ knitr::include_graphics("./Images/jayisha/Freight Transportation Services Index 
 
 9) Trucks transported the vast majority of freight by both weight and value in 2018 (68% and 73%, respectively). While pipelines and rail together accounted for over 25% of freight tonnage, they accounted for just over 12% of freight value. Domestic freight movement in 2018 totaled 16.5 billion tons with a total value of $14.8 billion.
 
-```{r Figure 4.1, echo=FALSE, fig.cap='Freight by Mode, 2018', fig.width=4, fig.align='center'}
+```{r Figure 2.6, echo=FALSE, fig.cap='Freight by Mode, 2018', fig.width=4, fig.align='center'}
 knitr::include_graphics("./Images/jayisha/Freight by Mode, 2018.jpg")
 ```
 
