@@ -64,8 +64,7 @@ knitr::include_graphics("./Images/jayisha/Historical and Forecasted Mode Share o
 ```
 Source: 2016 Freight Quick Facts Report, DOT, Draft National Freight Strategic Plan, BTS Special Tabulation
 
-## Freight Transportation Service Index
- {#intro-Freight_Index}
+## Freight Transportation Service Index {#intro-Freight_Index}
 
 1) The Freight Transportation Services Index, an indicator of monthly changes in freight carried by for-hire transportation companies.
 
@@ -76,8 +75,7 @@ Source: 2016 Freight Quick Facts Report, DOT, Draft National Freight Strategic P
 ```{r Figure 3.1, echo=FALSE, fig.cap='Freight Transportation Services Index 2016–2021', fig.width=4, fig.align='center'}
 knitr::include_graphics("./Images/jayisha/Freight Transportation Services Index 2016–2021.jpg")
 ```
-## Freight Transportation and the Economy
- {#intro-Freight_Index}
+## Freight Transportation and the Economy {#intro-Freight_Index}
  
 1) The benefits of freight transportation to the economy are enormous. 
 
@@ -107,8 +105,7 @@ knitr::include_graphics("./Images/jayisha/Freight Transportation Services Index 
 
 14) The Bureau of Labor Statistics reports that productivity for the intercity trucking, railroad, air transport, and petroleum pipeline industries has improved over the last 20 years. 
 
-## Growing Freight Movement
- {#intro-Freight_movement}
+## Growing Freight Movement {#intro-Freight_movement}
  
  
 1) Improvements in railroad productivity resulted primarily from deregulation, divestiture of uneconomic lines, reductions in the labor force, and changes in technology and logistics. Productivity improvements in trucking resulted primarily from public investments in a high-quality national road network and deregulation.
@@ -132,7 +129,7 @@ knitr::include_graphics("./Images/jayisha/Freight Transportation Services Index 
 knitr::include_graphics("./Images/jayisha/Freight by Mode 2018.jpg")
 ```
 
-Source: U.S. Department of Transportation, Freight Analysis Framework, Version 4.5.1, December 2019. Data Tabulation Tool queried July 2, 2020.
+Source:U.S. Department of Transportation,Freight Analysis Framework, Version 4.5.1, December 2019. Data Tabulation Tool queried July 2, 2020.
 
 
 
