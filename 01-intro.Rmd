@@ -137,6 +137,10 @@ knitr::include_graphics("./Images/jayisha/Freight by Mode, 2018.jpg")
 
 Source:U.S. Department of Transportation,Freight Analysis Framework, Version 4.5.1, December 2019. Data Tabulation Tool queried July 2, 2020.
 
+## Freight Mobility and Statistics {#intro-Freight_mobility}
 
+```{r Figure 2.7, echo=FALSE, fig.cap='Freight by Mode, 2018', fig.width=4, fig.align='center'}
+knitr::include_graphics("./Images/jayisha/Freight by Mode, 2018.jpg")
+```
 
 
