@@ -1,3 +1,51 @@
+--- 
+title: "Introduction to Freight Transportation"
+author:
+  - "Scott S. Washburn, University of Florida, https://swash.essie.ufl.edu"
+  - "Evangelos Kaiser, Florida Atlantic University, http://www.eng.fau.edu/directory/faculty/kaisar/"
+  - "Lili Du, University of Florida, https://www.essie.ufl.edu/people/name/lili-du/"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+output: bookdown::gitbook
+documentclass: book
+bibliography: [references.bib]
+biblio-style: apalike
+link-citations: yes
+github-repo: swash17/FreightCurriculum
+description: "Material designed for an introduction to freight transportation course. Initial development of this material was sponsored by the Freight Mobility Research Institute (http://eng.fau.edu/research/fmri/)"
+---
+
+
+# Preface
+
+This material is intended for an introduction to freight transportation course.Initial development of this material was sponsored by the Freight Mobility Research Institute (http://eng.fau.edu/research/fmri/).
+
+An example figure is shown in Figure \@ref(fig:PortImage)
+
+
+```{r eval=FALSE, echo=FALSE}
+install.packages("bookdown")
+# or the development version
+# devtools::install_github("rstudio/bookdown")
+```
+
+```{r PortImage, echo=FALSE, fig.cap='Port of Miami Partial Schematic', out.width='90%', fig.asp=.75, fig.align='center'}
+knitr::include_graphics("./Images/PortOfMiami.bmp")
+```
+
+
+
+
+
+```{r include=FALSE}
+# automatically create a bib database for R packages
+knitr::write_bib(c(
+  .packages(), 'bookdown', 'knitr', 'rmarkdown'
+), 'packages.bib')
+```
+
+<!--chapter:end:index.Rmd-->
+
 # Introduction {#intro}
 
 The movement of freight is a key foundation to the functioning of our society and economy...
@@ -138,4 +186,108 @@ Source: U.S. Department of Transportation, Freight Analysis Framework, Version
 
 
 
+
+
+<!--chapter:end:01-intro.Rmd-->
+
+# Freight Vehicle Characteristics {#VehChars}
+
+## FHWA truck classifications {#VehChars-Classes}
+
+The FHWA designated vehicle classifications are shown in Figure \@ref(fig:VehClassesImage)
+
+```{r VehClassesImage, echo=FALSE, fig.cap='FHWA Vehicle Classifications', fig.width=6, fig.align='center'}
+knitr::include_graphics("./Images/VehClassesFHWA.jpg")
+```
+Source: FHWA (2019). Traffic Monitoring Guide, Appendix C. Vehicle Types. USDOT. Washington, DC. URL: https://www.fhwa.dot.gov/policyinformation/tmguide/tmg_2013/vehicle-types.cfm.
+
+## Types of trailers
+
+1. Flatbed Trailer
+2. Dry Vans
+3. Refrigerated Trailer
+4. Lowboy Trailers
+5. Step Deck Trailers
+6. Etc.
+
+https://truckfreighter.com/tractor-types-trucks-trailers
+
+An example table is shown in Table \@ref(tab:Example)
+
+
+Table: (\#tab:Example) A sample table
+
+|Variable | Value (%) |  
+|:-------:|:---------:|
+| X       | 25 |
+| Y       | 50 | 
+| Z       | 75 |
+
+
+## Performance characteristics (accel, decel, speed governing, etc.)
+
+## Unloaded weights
+
+## Geometric design considerations (turning radius, sight distance, etc.)
+
+<!--chapter:end:02-vehChars.Rmd-->
+
+# Loading Characteristics
+
+## Maximum load without permit, max load with permit, route restrictions, time of day restrictions
+
+## Weigh stations, weigh-in-motion
+
+<!--chapter:end:03-loadingChars.Rmd-->
+
+# Driver issues
+
+## Hours of service
+
+## Training
+
+## Recruitment
+
+<!--chapter:end:04-driverIssues.Rmd-->
+
+# Parking
+
+## public, such as rest areas
+
+## private, such as Travel Centers of America/Petro
+
+## parking availability technology/information systems
+
+<!--chapter:end:05-parking.Rmd-->
+
+# Port issues
+
+## Jayisha Das
+
+```{r VehClassesImage2, echo=FALSE, fig.cap='FHWA Vehicle Classifications', fig.width=6, fig.align='center'}
+knitr::include_graphics("./Images/VehClassesFHWA.jpg")
+```
+
+```{r Freightshipments,echo=FALSE, fig.cap='FHWA shipments', fig.width=6, fig.align='center' }
+knitr::include_graphics("./Images/FreightShipments_Weight.jpg")
+```
+
+
+
+<!--chapter:end:06-testfile.Rmd-->
+
+`r if (knitr::is_html_output()) '
+# References {-}
+'`
+
+Bureau of Transportation Statistics (2014). Freight Transportation. USDOT. Washington, DC. URL: https://www.bts.gov/topics/freight-transportation.
+
+FHWA (2019). Traffic Monitoring Guide, Appendix C. Vehicle Types. USDOT. Washington, DC. URL: https://www.fhwa.dot.gov/policyinformation/tmguide/tmg_2013/vehicle-types.cfm.
+
+Mannering, Fred L. and Washburn, Scott S. (2019). Principles of Highway Engineering and Traffic Analysis, 7th Edition. John Wiley and Sons, Hoboken, NJ.
+
+Transportation Research Board (2016). Highway Capacity Manual, Sixth Edition: A Guide for Multimodal Mobility Analysis. Transportation Research Board, Washington, DC.
+
+
+<!--chapter:end:07-references.Rmd-->
 
