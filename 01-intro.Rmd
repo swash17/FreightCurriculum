@@ -77,6 +77,35 @@ Source: 2016 Freight Quick Facts Report, DOT, Draft National Freight Strategic P
 knitr::include_graphics("./Images/jayisha/Freight Transportation Services Index 2016–2021.jpg")
 ```
 
+## Freight Transportation and the Economy {#intro-Freight_economy}
+ 
+1) The benefits of freight transportation to the economy are enormous.
+
+2) Freight transportation increases the value of goods by moving them to locations where they are worth more and encourages competition and production.
+
+3) Freight transportation also stimulates demand for goods and services and employs millions of people.
+
+4) Freight transportation infrastructure is a significant component of our nation's wealth and productive capacity.
+
+5) From a macroeconomic perspective, transportation accounts for a significant share of the U.S. GDP. In 2000, purchases of transportation-related goods and services accounted for approximately 11 percent of GDP (USDOT BTS 2002).
+
+6) Only housing, health care, and food accounted for a greater share. For-hire transportation services, which include warehousing, contributed about 3.3 percent ($303 billion) to GDP.
+
+7) Many industries and businesses depend on their own transportation operations (primarily trucking) to move goods. These "in-house" transportation services contributed an additional $142 billion to the economy (USDOT BTS 2001b).
+
+8) Freight transportation also contributes to the economy by providing jobs to millions of people—an important indicator of economic growth.
+
+9) In 2000, more than 10 million people were employed in transportation-related industries, including for-hire services, vehicle manufacturing, and parts suppliers.
+
+10) For-hire transportation (including warehousing) employed more than 4.4 million workers, a majority of whom worked in freight-related jobs.
+
+11) Another 5.5 million people worked in transportation occupations in non transportation industries, such as truck drivers for grocery stores (USDOT BTS 2001b).
+
+12) Truck drivers, alone, accounted for nearly 70 percent of the total number of transportation occupational workers (USDOT BTS 2002b).
+
+13) Improvements in freight productivity help the United States maintain its competitive position in the world economy.
+
+14) The Bureau of Labor Statistics reports that productivity for the intercity trucking, railroad, air transport, and petroleum pipeline industries has improved over the last 20 years.
 
 
 
