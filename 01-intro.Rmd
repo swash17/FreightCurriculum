@@ -1,8 +1,8 @@
 # Introduction {#intro}
 
-The movement of freight is a key foundation to the functioning of our society and economy...
+The movement of freight is a key foundation to the functioning of our society and economy.
 
-A sample math equation $a^2 + b^2 = c^2$
+
 
 ## Applicable Federal Agencies {#intro-agencies}
 
@@ -16,9 +16,9 @@ A sample math equation $a^2 + b^2 = c^2$
 ## Freight movement statistics {#intro-statistics}
 
 1) Mobility refers to the ease that a passenger or a freight unit can move across a transportation system. High mobility requires limited efforts, while low mobility is related to complexity and high costs.
-...
 
-2) For freight, mobility is cargo-dependent, with some commodities having limited storage requirements but heavy to carry
+
+2) For freight,mobility is cargo-dependent, with some commodities having limited storage requirements but heavy to carry.
 
 **Weight of shipments by transportation mode**
 
@@ -53,10 +53,13 @@ Reference BTS
 8) The data reveal that most freight transportation modes are expected to experience increased volumes, although the amount of expected growth will vary by mode, with pipelines projected to have negative growth to year 2040.
 
 
+
 ```{r Figure 2.3, echo=FALSE, fig.cap='U.S. Ton-Miles of Freight', fig.width=6, fig.align='center'}
 knitr::include_graphics("./Images/jayisha/U.S. Ton-Miles of Freight.jpg")
 ```
 Source: https://www.bts.gov/content/us-ton-miles-freight
+
+
 
 
 ```{r Figure 2.4, echo=FALSE, fig.cap='Historical and Forecasted Mode Share of Ton-miles, 1990–2040', fig.width=4, fig.align='center'}
@@ -71,7 +74,9 @@ Source: 2016 Freight Quick Facts Report, DOT, Draft National Freight Strategic P
 
 2) Not exactly paralleled the demand for consumer goods since August 2019.
 
-3) The volume of freight moved declined moderately from August 2019 through February 2020, then collapsed with the arrival of COVID-19 in March but quickly rebounded by summer (Figure 3.1).
+3) The volume of freight moved declined moderately from August 2019 through February 2020, then collapsed with the arrival of COVID-19 in March but quickly rebounded by summer.
+
+
 
 ```{r Figure 2.5, echo=FALSE, fig.cap='Freight Transportation Services Index 2016–2021', fig.width=4, fig.align='center'}
 knitr::include_graphics("./Images/jayisha/Freight Transportation Services Index 2016–2021.jpg")
@@ -129,30 +134,44 @@ knitr::include_graphics("./Images/jayisha/Freight Transportation Services Index 
 
 9) Trucks transported the vast majority of freight by both weight and value in 2018 (68% and 73%, respectively). While pipelines and rail together accounted for over 25% of freight tonnage, they accounted for just over 12% of freight value. Domestic freight movement in 2018 totaled 16.5 billion tons with a total value of $14.8 billion.
 
+
+
 ```{r Figure 2.6, echo=FALSE, fig.cap='Freight by Mode, 2018', fig.width=4, fig.align='center'}
 knitr::include_graphics("./Images/jayisha/Freight by Mode, 2018.jpg")
 ```
-
+Source:U.S. Department of Transportation,Freight Analysis Framework, Version 4.5.1, December 2019. Data Tabulation Tool queried July 2, 2020.
 
 ## Freight Mobility and Statistics {#intro-Freight_mobility}
 
 
-```{r Figure 2.7, echo=FALSE, fig.cap='Freight by Mode, 2018', fig.width=4, fig.align='center'}
-knitr::include_graphics("./Images/jayisha/Freight by Mode, 2018.jpg")
-```
 
-Source:U.S. Department of Transportation,Freight Analysis Framework, Version 4.5.1, December 2019. Data Tabulation Tool queried July 2, 2020.
-
-
-```{r Figure 2.8, echo=FALSE, fig.cap='Weight and Value Freight Shipments by Domestic Mode- 2017', fig.width=4, fig.align='center'}
+```{r Figure 2.7, echo=FALSE, fig.cap='Weight and Value Freight Shipments by Domestic Mode- 2017', fig.width=4, fig.align='center'}
 knitr::include_graphics("./Images/jayisha/Weight and Value Freight Shipments by Domestic Mode- 2017.jpg")
 ```
 
 
-```{r Figure 2.9, echo=FALSE, fig.cap='Value of Freight Shipments by State- 2017', fig.width=4, fig.align='center'}
+
+```{r Figure 2.8, echo=FALSE, fig.cap='Value of Freight Shipments by State- 2017', fig.width=4, fig.align='center'}
 knitr::include_graphics("./Images/jayisha/Value of Freight Shipments by State- 2017.jpg")
 ```
 
 
+## Freight Mobility and Statistics {#intro-Mode_Share}
+
+The modal distribution for ton-miles is similar to that for tons, with the exception of long-distance water moves. Rail moved nearly two-thirds of total ton-miles while pipelines accounted for 70 percent of ton-miles over distances more than 1,000 miles.
+
+
+
+```{r Figure 2.9, echo=FALSE, fig.cap='Mode Share of Freight Ton-Miles by Distance Band-2007', fig.width=4, fig.align='center'}
+knitr::include_graphics("./Images/jayisha/Mode Share of Freight Ton-Miles by Distance Band-2007.jpg")
+```
+
+
+
+```{r Figure 2.10, echo=FALSE, fig.cap='Data for Mode Share of Freight Ton-Miles by Distance Band- 2007', fig.width=4, fig.align='center'}
+knitr::include_graphics("./Images/jayisha/Data for Mode Share of Freight Ton-Miles by Distance Band- 2007.jpg")
+```
+
+Source:  U.S. Department of Transportation, Federal Highway Administration, Office of Freight Management and Operations, Freight Analysis Framework, version 3.4, 2012.
 
 
