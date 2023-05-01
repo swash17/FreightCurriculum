@@ -111,9 +111,7 @@ knitr::include_graphics("./Images/jayisha/Freight Transportation Services Index 
 ## Growing Freight Movement {#intro-Freight_movement}
  
 1) Improvements in railroad productivity resulted primarily from deregulation, divestiture of uneconomic lines, reductions in the labor force, and changes in technology and logistics. Productivity improvements in trucking resulted primarily from public investments in a high-quality national road network and deregulation.
-```{r}
 
-```
 
 2) The volume of freight moved by the U.S. transportation system has grown dramatically in recent decades and is projected to increase nearly 70 percent by 2020.
 
@@ -135,12 +133,26 @@ knitr::include_graphics("./Images/jayisha/Freight Transportation Services Index 
 knitr::include_graphics("./Images/jayisha/Freight by Mode, 2018.jpg")
 ```
 
-Source:U.S. Department of Transportation,Freight Analysis Framework, Version 4.5.1, December 2019. Data Tabulation Tool queried July 2, 2020.
 
 ## Freight Mobility and Statistics {#intro-Freight_mobility}
+
 
 ```{r Figure 2.7, echo=FALSE, fig.cap='Freight by Mode, 2018', fig.width=4, fig.align='center'}
 knitr::include_graphics("./Images/jayisha/Freight by Mode, 2018.jpg")
 ```
+
+Source:U.S. Department of Transportation,Freight Analysis Framework, Version 4.5.1, December 2019. Data Tabulation Tool queried July 2, 2020.
+
+
+```{r Figure 2.8, echo=FALSE, fig.cap='Weight and Value Freight Shipments by Domestic Mode- 2017', fig.width=4, fig.align='center'}
+knitr::include_graphics("./Images/jayisha/Weight and Value Freight Shipments by Domestic Mode- 2017.jpg")
+```
+
+
+```{r Figure 2.9, echo=FALSE, fig.cap='Value of Freight Shipments by State- 2017', fig.width=4, fig.align='center'}
+knitr::include_graphics("./Images/jayisha/Value of Freight Shipments by State- 2017.jpg")
+```
+
+
 
 
