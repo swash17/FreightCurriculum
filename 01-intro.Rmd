@@ -233,7 +233,9 @@ d) Cargo storage areas.
 
 3) The 2020 top tonnage port was the port of Houston.
 
-## The busiest container ports in the United States{#intro-busiest containerports}
+
+
+## The busiest container ports in the United States {#intro-busiest_Port}
 
 1) Some of the largest and most crucial container gateways of the world are in the United States. The following list of the busiest container ports in the US includes important box hubs, which contribute significantly to the country's economy, while they also allow container movement across the oceans, supporting and facilitating global trade.
 
