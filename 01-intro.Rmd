@@ -175,3 +175,176 @@ knitr::include_graphics("./Images/jayisha/Data for Mode Share of Freight Ton-Mil
 Source:  U.S. Department of Transportation, Federal Highway Administration, Office of Freight Management and Operations, Freight Analysis Framework, version 3.4, 2012.
 
 
+
+
+## Goods Volume/ Value Coming Into/ Out Various Sea Ports {#intro-Goods_Volume}
+
+Outlines: 
+
+1) Sea Port Function 
+
+2) Top 25 Tonnage Ports in 2020
+
+3) The busiest container ports in the United States
+
+4) Sea port goods movement
+
+5) Container Sea Ports
+
+6) Container Terminal Structure
+
+7) Goods movement in Seaport
+
+8) Sea-port Logistic
+
+## Sea Port {#intro-Sea_Port_Function}
+
+1) Ports can serve a range of vessels including recreational watercraft, barges, ferries, and ocean-going cargo and passenger ships. The United States has over 150 deep-draft ports, which serve ocean-going ships.
+
+2) Seaports are maritime facilities that can comprise one or more wharves where ships can dock to load and discharge cargo and passengers.
+
+3) Since the dawn of commerce, people have been using boxes, sacks, barrels and containers of varying sizes to transport goods over long distances.
+
+4) Now, an estimated 90% of the world’s goods are transported by sea.
+
+5) The average size of a container ship has doubled in the past 20 years alone, with the largest ships sailing today capable of hauling 24,000 containers.
+
+
+```{r Figure 2.11, echo=FALSE, fig.cap='Sea Port', fig.width=6, fig.align='center'}
+knitr::include_graphics("./Images/jayisha/Sea Port.jpg")
+```
+Source: https://www.porttechnology.org/news/what-are-sea-ports/#:~:text=Sea%20ports%20are%20maritime%20facilities,and%20discharge%20cargo%20and%20passengers.
+
+
+6) The main functions of seaports are: To ensure safety for seagoing vessels entering, operation in and leaving the seaport. To provide facilities and equipment necessary for seagoing vessels to anchor, load and unload cargo, and embark and disembark passengers.
+
+7) Ports are land facilities constructed to transfer goods between water and land. They consist of major features such as:
+
+a) Docks or berths where vessels moor;
+b) Equipment and personnel to load and unload vessels;
+c) Connections to land transportation (such as highways, railways, and pipelines); and
+d) Cargo storage areas.
+
+## Top 25 Tonnage Ports in 2020 {#intro-Tonnage_Port}
+
+1) According to USDOT, Bureau of Transportation Statistics-The top 25 tonnage ports handled a total of 1,744 million tons of cargo about 71.3 percent of the tonnage handled by the top 100 ranked ports. The top 100 ports account for 95.5 percent of total tonnage handled by U.S. ports.
+
+2) The highest tonnage figures are associated with ports that handle large quantities of both liquid bulk cargo (e.g., petroleum or chemicals) and dry bulk cargo (e.g., coal or grain), such as the ports of Houston, South Louisiana, and Corpus Christi.
+
+3) The 2020 top tonnage port was the port of Houston.
+
+## The busiest container ports in the United States {#intro-busiest container_ports}
+
+1) Some of the largest and most crucial container gateways of the world are in the United States. The following list of the busiest container ports in the US includes important box hubs, which contribute significantly to the country's economy, while they also allow container movement across the oceans, supporting and facilitating global trade.
+
+a) Port of Los Angeles, California - More than 9.2 million TEU in 2020
+b) Port of Long Beach, California - More than 8.1 million TEU in 2020
+c) Port of New York and New Jersey, New York - More than 7.5 million TEU in 2020
+d) Port of Savannah, Georgia - More than 4.6 million TEU in 2020
+e) The Northwest Seaport Alliance (Seattle and Tacoma), Washington - More than 3.3 million TEU in 2020
+f) Port Houston, Texas - More than 2.9 million TEU in 2020
+g) Port of Virginia, Virginia - More than 2.8 million TEU in 2020
+h) Port of Oakland, California - More than 2.4 million TEU in 2020
+i) South Carolina Ports, South Carolina - More than 2.3 million TEU in 2020
+j) Port Miami, Florida - More than 1 million TEU in 2020
+
+Source: https://container-news.com/top-10-the-busiest-container-ports-in-the-united-states/
+
+
+## Sea port goods movement {#intro-Seaport_goods}
+
+1) The Nation’s ports handle the lion’s share of U.S. international trade and transportation.
+
+
+2) Following Figure shows the monthly U.S. international freight value transported by vessel. Between January 2021 and October 2021, the monthly U.S. international freight value transported by vessel increased by about $31 billion (22.6 percent) from $139 billion in January 2021 to $170 billion in October 2021 billion in October 2021.
+
+
+
+```{r Figure 2.12, echo=FALSE, fig.cap='Monthly U.S. international freight value', fig.width=6, fig.align='center'}
+knitr::include_graphics("./Images/jayisha/Monthly U.S. international freight value.jpg")
+```
+
+Source: U.S. Department of Transportation, Bureau of Transportation Statistics analysis, based upon U.S. Department of Commerce, Census Bureau, USA Trade Online, available at https://usatrade.census.gov/ as of December 2021.
+
+
+
+## Container Sea Ports {#intro-container_port}
+
+The operations of container seaport include four steps:
+
+1) Ship-to-shore: stage when cargo is discharged
+2) Transfer: cargo is unloaded to a temporal area
+3) Storage: stage where containers are hold for a longer period of time
+4) Delivery and receipt is the movement of delivery (clearance) of the cargo or receiving into the terminal
+
+ 
+```{r Figure 2.13, echo=FALSE, fig.cap='Operations of container seaport', fig.width=6, fig.align='center'}
+knitr::include_graphics("./Images/jayisha/Operations of container seaport.jpg")
+```
+
+## Container Terminal Structure {#intro-container_terminal_structure}
+
+ A sea container terminal consists of at least three operational areas:
+
+1) The operational area between the quay wall and container yard (area just behind the berth front).
+
+2) The container yard (terminal storage, which is the stacking area): the area where the containers are stocked and where the loading and unloading activities of these units are carried out.
+
+3) The terminal area of landside operations, which includes the gate, parking, office buildings, customs facilities, container freight station with an area for stuffing and stripping, empty container storage, a container maintenance and repair area, and so on.
+
+
+```{r Figure 2.14, echo=FALSE, fig.cap='Scheme of a port terminal of containers showing the three main zones', fig.width=6, fig.align='center'}
+knitr::include_graphics("./Images/jayisha/Scheme of a port terminal of containers showing the three main zones.jpg")
+```
+
+
+
+## Goods movement in Seaport {#intro-Goods_movement}
+
+
+1) Let’s assume a renowned Denim brand from the US wants to outsource its jeans consignment from China. Once the consignment is ready, the exporter will first select a particular shipping company whose container will come to its factory for cargo loading.
+
+2) After loading the containers, the containers are sealed and an identical no. or a particular id is given to the exporter so that they can track their goods.
+
+3) Now the Freight forwarder will arrange for the intermodal transport i.e. transporting the container from the exporter warehouse or factory to the designated shipping port for loading into the ships.
+
+Shipping:
+
+1) In the port, the container weights are measured, and the entries are made according to that. The container is stacked in the port in such a manner that they can be taken out easily as per the schedule of their assigned vessel. Now the container is ready to be loaded on the ship.
+
+2) Once the ship arrives, the container is brought from the port storage facility, near to the ship by container port trucks
+
+3) The container can be stored on the ship’s cargo hold, where container guides are provided to draw and place the container inside the hold.
+
+
+4) Once the ship reaches the destined port, the container will be unloaded by the port cranes, and it is transported to the port bay or warehouse using the port container trucks.
+
+5) Once the custody of the shipment is acquired by the Importer’s representative or by the freight forwarder, the cargo will be transported using intermodal transport to the importer’s warehouse where the container is unloaded.
+
+6) The empty container is now returned to the shipping line designated container yard, where it will wait for the next booking and onward journey.
+
+7) The world is now connected by thousands of containers making it feasible for businesses and people to trade across the globe.
+
+
+
+```{r Figure 2.15, echo=FALSE, fig.cap='Example of Goods movement from port of entry to customer', fig.width=6, fig.align='center'}
+knitr::include_graphics("./Images/jayisha/Example of Goods movement from port of entry to customer.jpg")
+```
+
+
+## Sea-port Logistic {#intro-port_Logistic}
+
+For accessibility reasons, port-centric activities tend to cluster in areas close to or adjacent to port terminals. A better organization of first and second-tier activities is commonly leading to the setting of port-centric logistics zones. These zones have several advantages, including a better utilization level of transportation and container assets.
+
+
+
+```{r Figure 2.16, echo=FALSE, fig.cap='Sea-port logistics', fig.width=6, fig.align='center'}
+knitr::include_graphics("./Images/jayisha/Sea-port logistics.jpg")
+```
+
+
+```{r Figure 2.17, echo=FALSE, fig.cap='Warehousing services', fig.width=6, fig.align='center'}
+knitr::include_graphics("./Images/jayisha/Warehousing services.jpg")
+```
+
+
