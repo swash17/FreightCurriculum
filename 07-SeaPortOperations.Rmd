@@ -1,7 +1,7 @@
 # Supply Chain
 
 
-# Reefer Units
+## Reefer Units
 The term “Reefer” refers to a refrigerated container used to transport perishable goods.
  
 While these units are used throughout most supply chains, they are especially important within marine settings as food often travels hundreds of miles before reaching consumers.
@@ -49,7 +49,7 @@ Additionally, global organizations uphold and promote a higher standard for prod
 ```{r Figure 8.4, echo=FALSE, fig.cap='Industry Regulation', fig.width=4, fig.align='center'}
 knitr::include_graphics("./Images/Kaytlynn/Industry Regulation.jpg")
 ```
-# 20ft and 40ft Containers
+## 20ft and 40ft Containers
 
 ## The Modern Freight Container
 The term “freight transportation” conjures images of boats or trains filled to the brim with modern day shipping containers, but the movement of merchandise has not always been this simple. 

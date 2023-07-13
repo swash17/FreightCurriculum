@@ -51,11 +51,14 @@ what-is-a-rail-port
 types-of-rail-terminals
 rail-service-during-supply-chain-disruptions
 the-economic-impact-of-freight-railroads
+first-last-mile
+what-is-firstlast-mile
 how-does-it-relate-to-transportation
 solutions
 how-does-it-relate-to-transportation-1
 challenges
 solutions-1
+long-haul-short-haul
 what-is-long-haulshort-haul
 air-transportation
 supply-chain-1
