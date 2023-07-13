@@ -382,9 +382,67 @@ On-demand micro transit
 Complete Streets
 Mobility Hubs (Broward County LRT concept)
 
+#Long Haul, Short Haul
+
+## What is Long Haul/Short Haul?
+
+In Transportation, a trip can be classified as a long or short haul.
+Often, various modes (land, air, sea) of transportation are utilized for long and short haul. 
+What determines a trip being a long or short haul is the type of good being transported and the location of the final destination.
 
 
 
+```{r Figure 7.18, echo=FALSE, fig.cap='Long Haul and Short Haul', fig.width=4, fig.align='center'}
+knitr::include_graphics("./Images/Allan/Long Haul and Short Haul.jpg")
+```
+##Land Transportation
 
- 
+Long Haul: 
+Consists of larger trucks that can haul larger loads of goods across long distances. 
+Operate in a minimum radius of 250-miles, often between cities, states, or countries.
+Typically found on interstates. 
 
+```{r Figure 7.19, echo=FALSE, fig.cap='Long Haul', fig.width=4, fig.align='center'}
+knitr::include_graphics("./Images/Allan/Long Haul.jpg")
+```
+Short Haul:
+Consists of small trucks that operate in a network within a 150-mile radius.
+Usually operate within a city.
+Examples: Delivery of materials to construction sites, Retail products from warehouses to brick-and-mortar stores. 
+```{r Figure 7.20, echo=FALSE, fig.cap='Short Haul', fig.width=4, fig.align='center'}
+knitr::include_graphics("./Images/Allan/Short Haul.jpg")
+```
+
+## Air Transportation
+
+Long Haul: 
+Commercial flights are categorized as short, medium, or long hauls, depending on the distances needed to travel.
+Long haul flights consist of larger planes that can move goods or passengers across long distances. 
+Flight duration extends beyond but no less than 6 hours. 
+It can be for both connecting or non-stop flights
+Pilots spend more days away then home. 
+
+```{r Figure 7.21, echo=FALSE, fig.cap='Air Transportation Long Haul', fig.width=4, fig.align='center'}
+knitr::include_graphics("./Images/Allan/Air Transportation Long Haul.jpg")
+```
+Ultra Long Haul: 
+Ultra long Haul (ULH) is an operational model that arose due to the Covid-19 virus.
+ULH is proposed as a point-to-point service that, with a strong domestic “feeder system” would:
+Require minimal adjustments to cope with Covid-19 or any future outbakes. 
+Produce higher seat-load factors and yields.
+Produce more network flexibility.
+Allow the ability to bypass densely populated hub airports.  
+
+```{r Figure 7.22, echo=FALSE, fig.cap='Ultra Long Haul', fig.width=4, fig.align='center'}
+knitr::include_graphics("./Images/Allan/Ultra Long Haul.jpg")
+```
+
+Short Haul: 
+Commercial flights categorized as short hauls, consist of smaller planes that are used in short but more frequent flights.
+Flight duration lasts between 30 minutes to 3 hours. 
+Pilots make several trips a day and come back the same day.
+
+
+```{r Figure 7.23, echo=FALSE, fig.cap='Air Transportation Short Haul', fig.width=4, fig.align='center'}
+knitr::include_graphics("./Images/Allan/Air Transportation Short Haul.jpg")
+```
