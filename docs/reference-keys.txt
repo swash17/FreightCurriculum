@@ -39,8 +39,15 @@ public-such-as-rest-areas
 private-such-as-travel-centers-of-americapetro
 parking-availability-technologyinformation-systems
 supply-chain
-outlines
 sea-port
 supply-chain-management
 the-role-of-ports-in-the-supply-chain
 ports-and-their-impact-on-the-global-supply-chain
+rail-ports
+rail-transport
+railroad-network
+how-can-freight-railroads-be-accessed
+what-is-a-rail-port
+types-of-rail-terminals
+rail-service-during-supply-chain-disruptions
+the-economic-impact-of-freight-railroads
