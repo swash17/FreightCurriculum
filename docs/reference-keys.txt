@@ -1,10 +1,7 @@
 fig:PortImage
 fig:FreightByWeightImage
 fig:FreightByValueImage
-fig:VehClassesImage
 tab:Example
-fig:VehClassesImage2
-fig:Freightshipments
 preface
 intro
 intro-agencies
@@ -41,5 +38,9 @@ parking
 public-such-as-rest-areas
 private-such-as-travel-centers-of-americapetro
 parking-availability-technologyinformation-systems
-port-issues
-jayisha-das
+supply-chain
+outlines
+sea-port
+supply-chain-management
+the-role-of-ports-in-the-supply-chain
+ports-and-their-impact-on-the-global-supply-chain

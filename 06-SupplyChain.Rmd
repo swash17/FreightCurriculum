@@ -1,0 +1,90 @@
+# Supply Chain
+
+## Outlines
+
+Sea Port
+
+Ports and Supply Chain
+
+Supply Chain Management
+
+The role of ports in the supply chain
+
+Ports and Their Impact on the Global Supply Chain
+
+## Sea Port
+
+Ports can serve a range of vessels including recreational watercraft, barges, ferries, and ocean-going cargo and passenger ships. The United States has over 150 deep-draft ports, which serve ocean-going ships.
+
+Seaports are maritime facilities that can comprise one or more wharves where ships can dock to load and discharge cargo and passengers.
+
+## Supply Chain Management
+
+Supply Chain Management (SCM) is the coordination and management of a complex network of activities delivering a finished product to end-users or customers. 
+
+The process includes sourcing raw materials and parts, manufacturing and assembling products, storage, order entry and tracking, distribution through the various channels, and finally delivery to the customer.
+
+Seaports are functioning as platforms within global supply chains and global production networks. 
+
+These supply chains are highly dynamic as they react to changes in global trade patterns, consumer preferences, and advances in supply chain management and information technology.
+
+```{r Figure 6.1, echo=FALSE, fig.cap='Ports and Supply Chain', fig.width=4, fig.align='center'}
+knitr::include_graphics("./Images/jayisha/Ports and Supply Chain.jpg")
+```
+## The role of ports in the supply chain
+
+1.Ports are a nexus in supply chains as they support the interaction between global supply chains and regional production and consumption markets. 
+
+2.Global supply chains have become complex, pressuring the logistics industry to simultaneously improve their costs, performance, and resilience to disruptions.
+
+3.Logistics services that still offer value may experience a debasement and become basic services, only generating a small margin. This is especially the case for physical added value.
+
+4.The successful management of a supply chain is influenced by customer expectations, globalization, technological innovations, government regulation, competition, and sustainability concerns.
+
+5.Within supply chains, corporations interact with external suppliers, internal departments, external distributors, and customers.
+ 
+
+```{r Figure 6.2, echo=FALSE, fig.cap='The role of ports in the supply chain', fig.width=4, fig.align='center'}
+knitr::include_graphics("./Images/jayisha/The role of ports in the supply chain.jpg")
+```
+
+## Ports and Their Impact on the Global Supply Chain
+
+1. An efficient supply chain relies on optimized relationships, effective technology, excellent information sharing and streamlined infrastructure.
+2. Port efficiency impacts organizations throughout the supply chain—suppliers, manufacturers, logistics service providers (LSPs), freight forwarders, cargo shipping lines and others.
+
+```{r Figure 6.3, echo=FALSE, fig.cap='Ports and Their Impact on the Global Supply Chain', fig.width=4, fig.align='center'}
+knitr::include_graphics("./Images/jayisha/Ports and Their Impact on the Global Supply Chain.jpg")
+```
+
+3. Some of the problems with the current port system and discuss possible solutions to help streamline port and downstream supply chain operations:
+
+A Lack of Visibility into Container Status Impacts Forward Planning
+
+A supply chain platform that integrates with port and terminal systems with a minimum of extra configuration
+A centralized view of container status and information, so one can see where all your shipments are at a glance
+Detailed container content information, so you can link specific supplies, parts and finished products back to loading, unloading and transportation schedules
+
+4. An Increase in Demand on Ports Can Make Carriers Less Efficient
+
+Deep analytics into exactly how ports are processing your shipments
+Predictive forecasting and modeling so you can proactively make changes to your fleet operations
+At-a-glance and in-depth reporting on the movement of goods so you can quickly identify and resolve potential issues
+
+5. Infrastructure and Transportation Within and Around a Port Makes a Big Difference
+
+Optimize routing and fleet transport through artificial intelligence, machine learning and predictive analytics
+Accurate tracking of exactly where your containers, trucks, chassis and other assets are through GPS positioning
+Take into account specialized handling needs for different types of sensitive goods
+
+
+6. Environmental Factors Can Impact on Ports and the Supply Chain
+
+The latest updates from air, ocean, rail and motor carriers
+Communications from airport, marine and rail terminals
+Data from electronic logging devices, automated information systems and GPS location services
+Air traffic, weather alerts and maritime conditions
+
+
+7. Specialized Port Arrangements Can Take Advantage of a Centralized Supply Chain Platform
+
