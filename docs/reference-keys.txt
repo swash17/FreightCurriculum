@@ -35,8 +35,7 @@ hours-of-service
 training
 recruitment
 parking
-private-such-as-travel-centers-of-americapetro-parking-private-parking
-parking-intro
+parking-privateparking
 parking-benefits
 parking-needs
 parking-companies

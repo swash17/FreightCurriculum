@@ -1,8 +1,8 @@
 # Parking {#parking}
 
-## private, such as Travel Centers of America/Petro {#parking-private parking}
+## private, such as Travel Centers of America/Petro {#parking-privateparking}
 
-## Introduction {#parking-intro}
+Introduction 
 
 Private parking advantages:
 
