@@ -35,8 +35,13 @@ hours-of-service
 training
 recruitment
 parking
-public-such-as-rest-areas
-private-such-as-travel-centers-of-americapetro
+private-such-as-travel-centers-of-americapetro-parking-private-parking
+parking-intro
+parking-benefits
+parking-needs
+parking-companies
+key-example-travelcenters-of-america-parking-travel-center
+parking-conclusions
 parking-availability-technologyinformation-systems
 supply-chain
 sea-port-supply-chain-seaport
