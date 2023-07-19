@@ -78,3 +78,15 @@ iso-standard-container-markings
 types-of-containers
 how-are-containers-packed
 bill-of-lading
+planning
+planning-DOT
+planning-plan
+planning-process
+planning-design
+planning-operation
+planning-freight
+planning-freightplanning
+planning-guidance
+planning-strategicplan
+planning-vision
+planning-policy
