@@ -1,6 +1,6 @@
-#Enforcement and Safety Organizations {safety}
+#Enforcement and Safety Organizations {#safety}
 
-## Federal Motor Carrier Safety Administration {safety-federal}
+## Federal Motor Carrier Safety Administration {#safety-federal}
 
 Introduction
 
@@ -12,7 +12,7 @@ What is the Federal Motor Carrier Safety Administration?
 ```{r Figure 10.1, echo=FALSE, fig.cap='Federal Motor Carrier Safety Administration', fig.width=4, fig.align='center'}
 knitr::include_graphics("./Images/jasmine/Federal Motor Carrier Safety Administration.jpg")
 ```
-## Evolution {safety-evolution}
+## Evolution {#safety-evolution}
 
 The FMCSA was established through the Motor Carrier Safety Improvement Act of 1999 on January 1, 2000 by the United States Department of Transportation
 The FMCSA now has over 1,000 employees stationed across the country
@@ -22,7 +22,7 @@ One of the most recent additions of regulations includes the FMCSA Clearinghouse
 knitr::include_graphics("./Images/jasmine/DOT.jpg")
 ```
 
-## Purpose {safety-Purpose}
+## Purpose {#safety-Purpose}
 What is the purpose of the Federal Motor Carrier Safety Administration? 
 
 The purpose of this administration is enforce, regulate, and adjust the standard operating procedures for motor carrier vehicles to prevent and reduce crashes.
@@ -32,7 +32,7 @@ The purpose of this administration is enforce, regulate, and adjust the standard
 knitr::include_graphics("./Images/jasmine/Purpose.jpg")
 ```
 
-## Programs {safety-Programs}
+## Programs {#safety-Programs}
 What does the Federal Motor Carrier Safety Administration do?
 1.creates safety systems that are designed to focus on high risk situations while enforcing regulations
 2.brings educational awareness on fatal crashes that can result from opposition to safety regulations to companies, and the public
@@ -89,7 +89,7 @@ The FMCSA enables a collective review system for truck drivers, trucking compani
 The process is called the Notice of proposed Rulemaking, while they go to Congress and undergo approval.
 The rules that are reviewed, and approved, then get rendered into code.
 
-## Grants {safety-grants}
+## Grants {#safety-grants}
 
 Motor Carrier Safety Assistance Program Grant
 (MCSAP)
@@ -102,7 +102,7 @@ High Priority (HP) Grant
 This grant program is designated to enforce commercial vehicle safety plan activities.
 This program has an increasingly more important role as it regulates the standard for new innovative technology and connected motor vehicle safety.
 
-## Conclusion {safety-Conclusion}
+## Conclusion {#safety-Conclusion}
 
 The overall benefits that the FMCSA contributes to the transportation field, and industry, is the standard that it continues to establish for the safety of our road systems.
 The FMCSA allows for labor groups, transit and trucking partners to come together and discuss regulations, while modifying previous codes.
