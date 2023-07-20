@@ -100,7 +100,7 @@ organization
 organization-ATRI
 organization-imp
 organization-ATRIOrganization
-atri-focus-areas-organization-focus-area
+organization-focusareas
 organization-highwaysafety
 organization-usdot
 organization-usdotsafety

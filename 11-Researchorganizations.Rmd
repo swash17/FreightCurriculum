@@ -32,7 +32,7 @@ Aims to provide a safe, efficient, and viable transportation system.
 knitr::include_graphics("./Images/Mackenzie/ATRI.jpg")
 ```
 
-## ATRI Focus Areas {#organization-focus area}
+## ATRI Focus Areas {#organization-focusareas}
 
 
 ```{r Figure 12.3, echo=FALSE, fig.cap='Focus Areas', fig.width=4, fig.align='center'}
@@ -55,7 +55,7 @@ Technology
 Traffic Incident Management
 Truck Parking
 
-## Florida Department of Highway Safety and Motor Vehicles {#organization-highwaysafety}
+## Florida Department of Highway Safety and Motor Vehicles{#organization-highwaysafety}
 
 FLHSMV was established in 1969
 
@@ -67,7 +67,7 @@ Priority focus is the issuance of drivers licenses, vehicle tags & titles, and F
 knitr::include_graphics("./Images/Mackenzie/FLHSMV.jpg")
 ```
 
-## United States Department of Transportation {#organization-usdot}
+## United States Department of Transportation{#organization-usdot}
 
 USDOT was established in 1966. 
 
@@ -79,13 +79,13 @@ Priority focus of DOT is safety.
 knitr::include_graphics("./Images/Mackenzie/USDOT.jpg")
 ```
 
-## USDOT Safety Team Responsibilities {#organization-usdotsafety}
+## USDOT Safety Team Responsibilities{#organization-usdotsafety}
 
 ```{r Figure 12.6, echo=FALSE, fig.cap='Team Responsibilities', fig.width=4, fig.align='center'}
 knitr::include_graphics("./Images/Mackenzie/Team Responsibilities.jpg")
 ```
 
-## USDOT Safety Overview {#organization-overview}
+## USDOT Safety Overview{#organization-overview}
 
 ```{r Figure 12.7, echo=FALSE, fig.cap='Overview', fig.width=4, fig.align='center'}
 knitr::include_graphics("./Images/Mackenzie/Overview.jpg")
