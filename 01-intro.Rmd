@@ -55,7 +55,7 @@ Reference BTS
 
 
 ```{r Figure 2.3, echo=FALSE, fig.cap='U.S. Ton-Miles of Freight', fig.width=6, fig.align='center'}
-knitr::include_graphics("./Images/jayisha/U.S. Ton-Miles of Freight.jpg")
+knitr::include_graphics("./Images/Intro/U.S. Ton-Miles of Freight.jpg")
 ```
 Source: https://www.bts.gov/content/us-ton-miles-freight
 
@@ -63,7 +63,7 @@ Source: https://www.bts.gov/content/us-ton-miles-freight
 
 
 ```{r Figure 2.4, echo=FALSE, fig.cap='Historical and Forecasted Mode Share of Ton-miles, 1990–2040', fig.width=4, fig.align='center'}
-knitr::include_graphics("./Images/jayisha/Historical and Forecasted Mode Share of Ton-miles, 1990–2040.jpg")
+knitr::include_graphics("./Images/Intro/Historical and Forecasted Mode Share of Ton-miles, 1990–2040.jpg")
 ```
 Source: 2016 Freight Quick Facts Report, DOT, Draft National Freight Strategic Plan, BTS Special Tabulation
 
@@ -79,7 +79,7 @@ Source: 2016 Freight Quick Facts Report, DOT, Draft National Freight Strategic P
 
 
 ```{r Figure 2.5, echo=FALSE, fig.cap='Freight Transportation Services Index 2016–2021', fig.width=4, fig.align='center'}
-knitr::include_graphics("./Images/jayisha/Freight Transportation Services Index 2016–2021.jpg")
+knitr::include_graphics("./Images/Intro/Freight Transportation Services Index 2016–2021.jpg")
 ```
 
 ## Freight Transportation and the Economy {#intro-Freight_economy}
@@ -137,7 +137,7 @@ knitr::include_graphics("./Images/jayisha/Freight Transportation Services Index 
 
 
 ```{r Figure 2.6, echo=FALSE, fig.cap='Freight by Mode, 2018', fig.width=4, fig.align='center'}
-knitr::include_graphics("./Images/jayisha/Freight by Mode, 2018.jpg")
+knitr::include_graphics("./Images/Intro/Freight by Mode, 2018.jpg")
 ```
 Source:U.S. Department of Transportation,Freight Analysis Framework, Version 4.5.1, December 2019. Data Tabulation Tool queried July 2, 2020.
 
@@ -146,13 +146,13 @@ Source:U.S. Department of Transportation,Freight Analysis Framework, Version 4.5
 
 
 ```{r Figure 2.7, echo=FALSE, fig.cap='Weight and Value Freight Shipments by Domestic Mode- 2017', fig.width=4, fig.align='center'}
-knitr::include_graphics("./Images/jayisha/Weight and Value Freight Shipments by Domestic Mode- 2017.jpg")
+knitr::include_graphics("./Images/Intro/Weight and Value Freight Shipments by Domestic Mode- 2017.jpg")
 ```
 
 
 
 ```{r Figure 2.8, echo=FALSE, fig.cap='Value of Freight Shipments by State- 2017', fig.width=4, fig.align='center'}
-knitr::include_graphics("./Images/jayisha/Value of Freight Shipments by State- 2017.jpg")
+knitr::include_graphics("./Images/Intro/Value of Freight Shipments by State- 2017.jpg")
 ```
 
 
@@ -163,13 +163,13 @@ The modal distribution for ton-miles is similar to that for tons, with the excep
 
 
 ```{r Figure 2.9, echo=FALSE, fig.cap='Mode Share of Freight Ton-Miles by Distance Band-2007', fig.width=4, fig.align='center'}
-knitr::include_graphics("./Images/jayisha/Mode Share of Freight Ton-Miles by Distance Band-2007.jpg")
+knitr::include_graphics("./Images/Intro/Mode Share of Freight Ton-Miles by Distance Band-2007.jpg")
 ```
 
 
 
 ```{r Figure 2.10, echo=FALSE, fig.cap='Data for Mode Share of Freight Ton-Miles by Distance Band- 2007', fig.width=4, fig.align='center'}
-knitr::include_graphics("./Images/jayisha/Data for Mode Share of Freight Ton-Miles by Distance Band- 2007.jpg")
+knitr::include_graphics("./Images/Intro/Data for Mode Share of Freight Ton-Miles by Distance Band- 2007.jpg")
 ```
 
 Source:  U.S. Department of Transportation, Federal Highway Administration, Office of Freight Management and Operations, Freight Analysis Framework, version 3.4, 2012.
@@ -211,7 +211,7 @@ Outlines:
 
 
 ```{r Figure 2.11, echo=FALSE, fig.cap='Sea Port', fig.width=6, fig.align='center'}
-knitr::include_graphics("./Images/jayisha/Sea Port.jpg")
+knitr::include_graphics("./Images/Intro/Sea Port.jpg")
 ```
 Source: https://www.porttechnology.org/news/what-are-sea-ports/#:~:text=Sea%20ports%20are%20maritime%20facilities,and%20discharge%20cargo%20and%20passengers.
 
@@ -263,7 +263,7 @@ Source: https://container-news.com/top-10-the-busiest-container-ports-in-the-uni
 
 
 ```{r Figure 2.12, echo=FALSE, fig.cap='Monthly U.S. international freight value', fig.width=6, fig.align='center'}
-knitr::include_graphics("./Images/jayisha/Monthly U.S. international freight value.jpg")
+knitr::include_graphics("./Images/Intro/Monthly U.S. international freight value.jpg")
 ```
 
 Source: U.S. Department of Transportation, Bureau of Transportation Statistics analysis, based upon U.S. Department of Commerce, Census Bureau, USA Trade Online, available at https://usatrade.census.gov/ as of December 2021.
@@ -281,7 +281,7 @@ The operations of container seaport include four steps:
 
  
 ```{r Figure 2.13, echo=FALSE, fig.cap='Operations of container seaport', fig.width=6, fig.align='center'}
-knitr::include_graphics("./Images/jayisha/Operations of container seaport.jpg")
+knitr::include_graphics("./Images/Intro/Operations of container seaport.jpg")
 ```
 
 ## Container Terminal Structure {#intro-container_terminal_structure}
@@ -296,7 +296,7 @@ knitr::include_graphics("./Images/jayisha/Operations of container seaport.jpg")
 
 
 ```{r Figure 2.14, echo=FALSE, fig.cap='Scheme of a port terminal of containers showing the three main zones', fig.width=6, fig.align='center'}
-knitr::include_graphics("./Images/jayisha/Scheme of a port terminal of containers showing the three main zones.jpg")
+knitr::include_graphics("./Images/Intro/Scheme of a port terminal of containers showing the three main zones.jpg")
 ```
 
 
@@ -330,7 +330,7 @@ Shipping:
 
 
 ```{r Figure 2.15, echo=FALSE, fig.cap='Example of Goods movement from port of entry to customer', fig.width=6, fig.align='center'}
-knitr::include_graphics("./Images/jayisha/Example of Goods movement from port of entry to customer.jpg")
+knitr::include_graphics("./Images/Intro/Example of Goods movement from port of entry to customer.jpg")
 ```
 
 
@@ -341,12 +341,12 @@ For accessibility reasons, port-centric activities tend to cluster in areas clos
 
 
 ```{r Figure 2.16, echo=FALSE, fig.cap='Sea-port logistics', fig.width=6, fig.align='center'}
-knitr::include_graphics("./Images/jayisha/Sea-port logistics.jpg")
+knitr::include_graphics("./Images/Intro/Sea-port logistics.jpg")
 ```
 
 
 ```{r Figure 2.17, echo=FALSE, fig.cap='Warehousing services', fig.width=6, fig.align='center'}
-knitr::include_graphics("./Images/jayisha/Warehousing services.jpg")
+knitr::include_graphics("./Images/Intro/Warehousing services.jpg")
 ```
 
 
