@@ -5,7 +5,7 @@ Introduction
 2.These regulations and guidelines establish consistency across the nation, allowing for each state to navigate through their own environmental, geographical, and geological challenges
 
 ```{r Figure 9.1, echo=FALSE, fig.cap='State DOTs', fig.width=4, fig.align='center'}
-knitr::include_graphics("./Images/jasmine/State DOTs.jpg")
+knitr::include_graphics("./Images/planning design/State DOTs.jpg")
 ```
 
 ## Planning {#planning-plan}
@@ -13,7 +13,7 @@ knitr::include_graphics("./Images/jasmine/State DOTs.jpg")
 2.For example, the Florida Department of Transportation, has a central planning office, that has four subcategories: policy planning, forecasting and trends, system implementation, and performance. 
 
 ```{r Figure 9.2, echo=FALSE, fig.cap='planning', fig.width=4, fig.align='center'}
-knitr::include_graphics("./Images/jasmine/planning.jpg")
+knitr::include_graphics("./Images/planning design/planning.jpg")
 ```
 ## FDOT Planning Processes {#planning-process}
 
@@ -38,7 +38,7 @@ Florida Transportation Plan (FTP):
 This plan has three subcategories: the FTP vision element, the FTP policy element, and the FTP implementation element. Each aspect of this plan is purposed to outline the future of the Florida transportation system, develop technology based consumer application, and further implement performance measures for state, regional, and local agencies.
 
 ```{r Figure 9.3, echo=FALSE, fig.cap='planning process', fig.width=4, fig.align='center'}
-knitr::include_graphics("./Images/jasmine/planning process.jpg")
+knitr::include_graphics("./Images/planning design/planning process.jpg")
 ```
 
 ## Design {#planning-design}
@@ -61,7 +61,7 @@ Traffic, Incident Management (TIM)/Commercial Vehicle Operations (CVO)
 Traffic Systems
 
 ```{r Figure 9.4, echo=FALSE, fig.cap='operation management', fig.width=4, fig.align='center'}
-knitr::include_graphics("./Images/jasmine/operation management.jpg")
+knitr::include_graphics("./Images/planning design/operation management.jpg")
 ```
 Traffic, Incident Management (TIM):
 
@@ -117,12 +117,12 @@ State Freight Advisory Committees to benefit State freight planning.
 The freight transportation system of the United States will strengthen our economic competitiveness with safe and reliable supply chains that efficiently and seamlessly connect producers, shippers, and consumers in domestic and foreign markets.
 
 ```{r Figure 9.5, echo=FALSE, fig.cap='vision', fig.width=4, fig.align='center'}
-knitr::include_graphics("./Images/jayisha/vision.jpg")
+knitr::include_graphics("./Images/planning design/vision.jpg")
 ```
 ## National Freight Policy Strategic Goals {#planning-policy}
 
 
 ```{r Figure 9.6, echo=FALSE, fig.cap='Strategic Goals', fig.width=4, fig.align='center'}
-knitr::include_graphics("./Images/jayisha/Strategic Goals.jpg")
+knitr::include_graphics("./Images/planning design/Strategic Goals.jpg")
 ```
 

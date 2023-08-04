@@ -8,7 +8,7 @@ While these units are used throughout most supply chains, they are especially im
 
 
 ```{r Figure 8.1, echo=FALSE, fig.cap='Reefer Unit', fig.width=4, fig.align='center'}
-knitr::include_graphics("./Images/Kaytlynn/Reefer Unit.jpg")
+knitr::include_graphics("./Images/seaport operation/Reefer Unit.jpg")
 ```
 ## Types of Reefer Containers
 There are three typical types of Reefer Containers.  Each have their own benefits and drawbacks.
@@ -16,7 +16,7 @@ There are three typical types of Reefer Containers.  Each have their own benefit
 
 
 ```{r Figure 8.2, echo=FALSE, fig.cap='Types of Reefer Containers', fig.width=4, fig.align='center'}
-knitr::include_graphics("./Images/Kaytlynn/Types of Reefer Containers.jpg")
+knitr::include_graphics("./Images/seaport operation/Types of Reefer Containers.jpg")
 ```
 ## How does a Reefer Container work?
 
@@ -28,7 +28,7 @@ Power supply is sustained  through either portable generators or the vessel’s 
 
 
 ```{r Figure 8.3, echo=FALSE, fig.cap='Reefer Container ', fig.width=4, fig.align='center'}
-knitr::include_graphics("./Images/Kaytlynn/Reefer Container.jpg")
+knitr::include_graphics("./Images/seaport operation/Reefer Container.jpg")
 ```
 ## Why are they a necessity?
 The usage of reefer units has greatly influenced how we manage supply chains and what can be shipped. 
@@ -47,7 +47,7 @@ Additionally, global organizations uphold and promote a higher standard for prod
 
 
 ```{r Figure 8.4, echo=FALSE, fig.cap='Industry Regulation', fig.width=4, fig.align='center'}
-knitr::include_graphics("./Images/Kaytlynn/Industry Regulation.jpg")
+knitr::include_graphics("./Images/seaport operation/Industry Regulation.jpg")
 ```
 ## 20ft and 40ft Containers
 
@@ -70,7 +70,7 @@ Containers also reduced the labor requirements within ports as cranes took the p
 Overall, there was a rise in efficiency and speed of export accompanied by a decrease in shipping costs.
 
 ```{r Figure 8.5, echo=FALSE, fig.cap='Containers', fig.width=4, fig.align='center'}
-knitr::include_graphics("./Images/Kaytlynn/Containers.jpg")
+knitr::include_graphics("./Images/seaport operation/Containers.jpg")
 ```
 
 ## ISO Standard: Container Sizes
@@ -79,7 +79,7 @@ The International Organization for Standardization (ISO) sets the standard for s
 Typically, containers are either 20’ or 40’ for general purposes but occasionally other sizes may be used such as the one outlined in red above.  ISO 668:2020 outlines the classification, dimensions and ratings for series 1 freight containers.
 
 ```{r Figure 8.6, echo=FALSE, fig.cap='Container Size', fig.width=4, fig.align='center'}
-knitr::include_graphics("./Images/Kaytlynn/Container Size.jpg")
+knitr::include_graphics("./Images/seaport operation/Container Size.jpg")
 ```
 
 ## ISO Standard: Container Markings
@@ -89,7 +89,7 @@ All markings on the exterior of a shipping container are done in accordance with
 The bulk of the information can be found on the door side of the shipping container. 
 
 ```{r Figure 8.7, echo=FALSE, fig.cap='Container Markings', fig.width=4, fig.align='center'}
-knitr::include_graphics("./Images/Kaytlynn/Container Markings.jpg")
+knitr::include_graphics("./Images/seaport operation/Container Markings.jpg")
 ```
 
 The container numbers consists of owner codes, equipment categories, serial numbers and check digits.  The container numbers must be displayed on all sides of the container.
@@ -99,7 +99,7 @@ The size and type code is usually below the container numbers. The first charact
 Prior to shipment, containers must have a safety approval per the international convention for safe containers (CSC). This approval is indicated by the CSC Plate located on the outer left door of the container.  Typically the CSC Plate is now combined with the customs plate and any other plates required for international trade- collectively known as the Combined Data Plate. 
 
 ```{r Figure 8.8, echo=FALSE, fig.cap='ISO Standard Container Markings', fig.width=4, fig.align='center'}
-knitr::include_graphics("./Images/Kaytlynn/ISO Standard Container Markings.jpg")
+knitr::include_graphics("./Images/seaport operation/ISO Standard Container Markings.jpg")
 ```
 ## Types of Containers
 
@@ -113,7 +113,7 @@ Flat rack containers are ideal for shipping boats, cars and other heavy machiner
 
 
 ```{r Figure 8.9, echo=FALSE, fig.cap='Types of Containers', fig.width=4, fig.align='center'}
-knitr::include_graphics("./Images/Kaytlynn/Types of Containers.jpg")
+knitr::include_graphics("./Images/seaport operation/Types of Containers.jpg")
 ```
 3. Open Top Containers:
 
@@ -135,7 +135,7 @@ Refrigerated containers have temperature controls so goods can be kept at a spec
 
 
 ```{r Figure 8.10, echo=FALSE, fig.cap='Container Packing', fig.width=4, fig.align='center'}
-knitr::include_graphics("./Images/Kaytlynn/Container Packing.jpg")
+knitr::include_graphics("./Images/seaport operation/Container Packing.jpg")
 ```
 
 ## Bill of lading
@@ -147,6 +147,6 @@ The Bill of Lading is essentially a shipping contract which describes the origin
 The Freight Bill is the invoice for the shipping from origin to destination.  This document includes all the details of shipment and is signed by both the shipper and carrier. Unlike the bill of lading, this document  cannot be used during legal disputes as proof of shipment. 
 
 ```{r Figure 8.11, echo=FALSE, fig.cap='Bill of Lading', fig.width=4, fig.align='center'}
-knitr::include_graphics("./Images/Kaytlynn/Bill of Lading.jpg")
+knitr::include_graphics("./Images/seaport operation/Bill of Lading.jpg")
 ```
 

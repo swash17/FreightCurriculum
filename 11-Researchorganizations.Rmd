@@ -19,7 +19,7 @@ Improvements in safety are done through collaboration between different transpor
 Freight, passenger vehicles, hazardous materials, railroad, aviation, maritime, etc.
 
 ```{r Figure 12.1, echo=FALSE, fig.cap='Importance of Enforcement', fig.width=4, fig.align='center'}
-knitr::include_graphics("./Images/Mackenzie/Importance of Enforcement.jpg")
+knitr::include_graphics("./Images/Research organizations/Importance of Enforcement.jpg")
 ```
 ## American Transportation Research Institute {#organization-ATRIOrganization}
 Since 1954, ATRI has engaged in transportation studies and operational tests.
@@ -29,14 +29,14 @@ Conducts research on transportation with an emphasis on trucking.
 Aims to provide a safe, efficient, and viable transportation system.
 
 ```{r Figure 12.2, echo=FALSE, fig.cap='ATRI', fig.width=4, fig.align='center'}
-knitr::include_graphics("./Images/Mackenzie/ATRI.jpg")
+knitr::include_graphics("./Images/Research organizations/ATRI.jpg")
 ```
 
 ## ATRI Focus Areas {#organization-focusareas}
 
 
 ```{r Figure 12.3, echo=FALSE, fig.cap='Focus Areas', fig.width=4, fig.align='center'}
-knitr::include_graphics("./Images/Mackenzie/Focus Areas.jpg")
+knitr::include_graphics("./Images/Research organizations/Focus Areas.jpg")
 ```
 
 ATRI Research:
@@ -64,7 +64,7 @@ Provides highway safety and security through excellence in service, education an
 Priority focus is the issuance of drivers licenses, vehicle tags & titles, and Florida Highway Patrol operations.
 
 ```{r Figure 12.4, echo=FALSE, fig.cap='FLHSMV', fig.width=4, fig.align='center'}
-knitr::include_graphics("./Images/Mackenzie/FLHSMV.jpg")
+knitr::include_graphics("./Images/Research organizations/FLHSMV.jpg")
 ```
 
 ## United States Department of Transportation{#organization-usdot}
@@ -76,19 +76,19 @@ Aims to deliver a leading transportation system, serving the American people and
 Priority focus of DOT is safety.
 
 ```{r Figure 12.5, echo=FALSE, fig.cap='USDOT', fig.width=4, fig.align='center'}
-knitr::include_graphics("./Images/Mackenzie/USDOT.jpg")
+knitr::include_graphics("./Images/Research organizations/USDOT.jpg")
 ```
 
 ## USDOT Safety Team Responsibilities{#organization-usdotsafety}
 
 ```{r Figure 12.6, echo=FALSE, fig.cap='Team Responsibilities', fig.width=4, fig.align='center'}
-knitr::include_graphics("./Images/Mackenzie/Team Responsibilities.jpg")
+knitr::include_graphics("./Images/Research organizations/Team Responsibilities.jpg")
 ```
 
 ## USDOT Safety Overview{#organization-overview}
 
 ```{r Figure 12.7, echo=FALSE, fig.cap='Overview', fig.width=4, fig.align='center'}
-knitr::include_graphics("./Images/Mackenzie/Overview.jpg")
+knitr::include_graphics("./Images/Research organizations/Overview.jpg")
 ```
 
 Federal Railroad Administration:
@@ -117,7 +117,7 @@ Mission is to save lives prevent injuries and reduce economic costs due to road 
 
 
 ```{r Figure 12.8, echo=FALSE, fig.cap='USDOT Safety Overview', fig.width=4, fig.align='center'}
-knitr::include_graphics("./Images/Mackenzie/USDOT Safety Overview.jpg")
+knitr::include_graphics("./Images/Research organizations/USDOT Safety Overview.jpg")
 ```
 
 

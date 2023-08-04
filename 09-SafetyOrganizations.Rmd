@@ -10,7 +10,7 @@ What is the Federal Motor Carrier Safety Administration?
 2.The FMCSA has established its headquarters in Washington D.C, while it oversees commercial driver licensing, bus companies and commercial trucking.
 
 ```{r Figure 10.1, echo=FALSE, fig.cap='Federal Motor Carrier Safety Administration', fig.width=4, fig.align='center'}
-knitr::include_graphics("./Images/jasmine/Federal Motor Carrier Safety Administration.jpg")
+knitr::include_graphics("./Images/Enforcement and Safety Organizations/Federal Motor Carrier Safety Administration.jpg")
 ```
 ## Evolution{#safety-evolution}
 
@@ -19,7 +19,7 @@ The FMCSA now has over 1,000 employees stationed across the country
 One of the most recent additions of regulations includes the FMCSA Clearinghouse, which provides the ability to prohibit drivers to operate vehicles based on alcohol and drug testing and violations. 
 
 ```{r Figure 10.2, echo=FALSE, fig.cap='DOT', fig.width=4, fig.align='center'}
-knitr::include_graphics("./Images/jasmine/DOT.jpg")
+knitr::include_graphics("./Images/Enforcement and Safety Organizations/DOT.jpg")
 ```
 
 ## Purpose{#safety-Purpose}
@@ -29,7 +29,7 @@ The purpose of this administration is enforce, regulate, and adjust the standard
 
 
 ```{r Figure 10.3, echo=FALSE, fig.cap='Purpose', fig.width=4, fig.align='center'}
-knitr::include_graphics("./Images/jasmine/Purpose.jpg")
+knitr::include_graphics("./Images/Enforcement and Safety Organizations/Purpose.jpg")
 ```
 
 ## Programs{#safety-Programs}
@@ -58,11 +58,11 @@ Our Roads, Our Safety
 
 
 ```{r Figure 10.4, echo=FALSE, fig.cap='Educational Awareness', fig.width=4, fig.align='center'}
-knitr::include_graphics("./Images/jasmine/Educational Awareness.jpg")
+knitr::include_graphics("./Images/Enforcement and Safety Organizations/Educational Awareness.jpg")
 ```
 
 ```{r Figure 10.5, echo=FALSE, fig.cap='Programs', fig.width=4, fig.align='center'}
-knitr::include_graphics("./Images/jasmine/Programs.jpg")
+knitr::include_graphics("./Images/Enforcement and Safety Organizations/Programs.jpg")
 ```
 
 National Consumer Complaint Database (NCCDB):
@@ -76,11 +76,11 @@ This allows consumers to make an informed decision when booking bus trips.
 
 
 ```{r Figure 10.6, echo=FALSE, fig.cap='Educational Awareness-USDOT', fig.width=4, fig.align='center'}
-knitr::include_graphics("./Images/jasmine/Educational Awareness-USDOT.jpg")
+knitr::include_graphics("./Images/Enforcement and Safety Organizations/Educational Awareness-USDOT.jpg")
 ```
 
 ```{r Figure 10.7, echo=FALSE, fig.cap='National Consumer Complaint Database (NCCDB)', fig.width=4, fig.align='center'}
-knitr::include_graphics("./Images/jasmine/National Consumer Complaint Database (NCCDB).jpg")
+knitr::include_graphics("./Images/Enforcement and Safety Organizations/National Consumer Complaint Database (NCCDB).jpg")
 ```
 
 Stakeholders and Special Interest Lobby Groups:
