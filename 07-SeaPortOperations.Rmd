@@ -1,7 +1,7 @@
-# Supply Chain
+# Seaport Operation {#seaport}
 
 
-## Reefer Units
+## Reefer Units {#seaport-reefer}
 The term “Reefer” refers to a refrigerated container used to transport perishable goods.
  
 While these units are used throughout most supply chains, they are especially important within marine settings as food often travels hundreds of miles before reaching consumers.
@@ -10,7 +10,7 @@ While these units are used throughout most supply chains, they are especially im
 ```{r Figure 8.1, echo=FALSE, fig.cap='Reefer Unit', fig.width=4, fig.align='center'}
 knitr::include_graphics("./Images/seaport operation/Reefer Unit.jpg")
 ```
-## Types of Reefer Containers
+## Types of Reefer Containers {#seaport-containers}
 There are three typical types of Reefer Containers.  Each have their own benefits and drawbacks.
 
 
@@ -18,7 +18,7 @@ There are three typical types of Reefer Containers.  Each have their own benefit
 ```{r Figure 8.2, echo=FALSE, fig.cap='Types of Reefer Containers', fig.width=4, fig.align='center'}
 knitr::include_graphics("./Images/seaport operation/Types of Reefer Containers.jpg")
 ```
-## How does a Reefer Container work?
+## How does a Reefer Container work? {#seaport-work}
 
 Reefer containers maintain the desired temperatures by channeling air under and around the cargo through T-shaped decking.
 
@@ -30,7 +30,7 @@ Power supply is sustained  through either portable generators or the vessel’s 
 ```{r Figure 8.3, echo=FALSE, fig.cap='Reefer Container ', fig.width=4, fig.align='center'}
 knitr::include_graphics("./Images/seaport operation/Reefer Container.jpg")
 ```
-## Why are they a necessity?
+## Why are they necessary? {#seaport-necessary}
 The usage of reefer units has greatly influenced how we manage supply chains and what can be shipped. 
 
 Benefits of reefer units include: 
@@ -39,7 +39,7 @@ Diversification of shippable cargo
 Durable enough to remain operational in harsh marine environments
 Manufactured in multiple standard dimensions and can be partitioned to diversify cargo within individual containers
 Cargo does not require immediate cold storage upon arrival to destination
-## Industry Regulations
+## Industry Regulations {#seaport-regulation}
 
 To prevent practices during transportation that create food safety risks, the FDA creates various rules and regulations. The Sanitary Transportation of Human and Animal Food Rule aims to address the failure to properly refrigerate food, inadequate cleaning of vehicles between loads, and failure to properly protect food. 
 
@@ -49,16 +49,16 @@ Additionally, global organizations uphold and promote a higher standard for prod
 ```{r Figure 8.4, echo=FALSE, fig.cap='Industry Regulation', fig.width=4, fig.align='center'}
 knitr::include_graphics("./Images/seaport operation/Industry Regulation.jpg")
 ```
-## 20ft and 40ft Containers
+## 20ft and 40ft Containers {#seaport-20ft40ft}
 
-## The Modern Freight Container
+## The Modern Freight Container {#seaport-freight}
 The term “freight transportation” conjures images of boats or trains filled to the brim with modern day shipping containers, but the movement of merchandise has not always been this simple. 
 
 Prior to the 18th century, freight was handled manually as break bulk cargo. In other words each item was individually accounted for and transferred between carriers- a rather inefficient method. 
 
 Malcolm McLean patented the first standardized shipping container in 1956.  These steel containers were designed to be robust and reliable. 
 
-## Impact of Modern Containers on Seaport Operations
+## Impact of Modern Containers on Seaport Operations {#seaport-modern}
 Containerization, the process unitization of cargoes in exports, greatly impacted shipping operations. 
 
 The advent of the modern container brought a decline of inland ports as they were no longer able to support massive container ships.  Seaports built along deep waterways became the predominant terminal for shipping.
@@ -73,7 +73,7 @@ Overall, there was a rise in efficiency and speed of export accompanied by a dec
 knitr::include_graphics("./Images/seaport operation/Containers.jpg")
 ```
 
-## ISO Standard: Container Sizes
+## ISO Standard: Container Sizes {#seaport-size}
 The International Organization for Standardization (ISO) sets the standard for shipping container sizes in addition to other practices.  These standards can all be found on the ISO website.
 
 Typically, containers are either 20’ or 40’ for general purposes but occasionally other sizes may be used such as the one outlined in red above.  ISO 668:2020 outlines the classification, dimensions and ratings for series 1 freight containers.
@@ -82,7 +82,7 @@ Typically, containers are either 20’ or 40’ for general purposes but occasio
 knitr::include_graphics("./Images/seaport operation/Container Size.jpg")
 ```
 
-## ISO Standard: Container Markings
+## ISO Standard: Container Markings {#seaport-markings}
 
 All markings on the exterior of a shipping container are done in accordance with ISO Standard 6346:2022.  
 
@@ -101,7 +101,7 @@ Prior to shipment, containers must have a safety approval per the international 
 ```{r Figure 8.8, echo=FALSE, fig.cap='ISO Standard Container Markings', fig.width=4, fig.align='center'}
 knitr::include_graphics("./Images/seaport operation/ISO Standard Container Markings.jpg")
 ```
-## Types of Containers
+## Types of Containers {#seaport-types}
 
 1. Dry Storage Containers:
 
@@ -131,14 +131,14 @@ Tanks are designed to retain liquids, especially fuels. They are typically const
 
 Refrigerated containers have temperature controls so goods can be kept at a specific temperature during transport. They are well insulated to ensure that the climate remains consistent.  These containers allowed for a wider range of shippable cargo. 
 
-## How are containers packed?
+## How are containers packed? {#seaport-packed}
 
 
 ```{r Figure 8.10, echo=FALSE, fig.cap='Container Packing', fig.width=4, fig.align='center'}
 knitr::include_graphics("./Images/seaport operation/Container Packing.jpg")
 ```
 
-## Bill of lading
+## Bill of lading {#seaport-lading}
 
 The Bill of Lading and the Freight Bill are two of the most important forms when shipping containers. 
 

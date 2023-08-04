@@ -1,13 +1,13 @@
-# Supply Chain {#Supply Chain}
+# Supply Chain {#SupplyChain}
 
 
-## Sea Port {#Supply Chain-Seaport}
+## Sea Port {#SupplyChain-Seaport}
 
 Ports can serve a range of vessels including recreational watercraft, barges, ferries, and ocean-going cargo and passenger ships. The United States has over 150 deep-draft ports, which serve ocean-going ships.
 
 Seaports are maritime facilities that can comprise one or more wharves where ships can dock to load and discharge cargo and passengers.
 
-## Supply Chain Management {#Supply Chain-Seaportmng}
+## Supply Chain Management {#SupplyChain-Seaportmng}
 
 Supply Chain Management (SCM) is the coordination and management of a complex network of activities delivering a finished product to end-users or customers. 
 
@@ -20,7 +20,7 @@ These supply chains are highly dynamic as they react to changes in global trade 
 ```{r Figure 7.1, echo=FALSE, fig.cap='Ports and Supply Chain', fig.width=4, fig.align='center'}
 knitr::include_graphics("./Images/supplychain/Ports and Supply Chain.jpg")
 ```
-## The role of ports in the supply chain {#Supply Chain-Seaportrole}
+## The role of ports in the supply chain {#SupplyChain-Seaportrole}
 
 1.Ports are a nexus in supply chains as they support the interaction between global supply chains and regional production and consumption markets. 
 
@@ -37,7 +37,7 @@ knitr::include_graphics("./Images/supplychain/Ports and Supply Chain.jpg")
 knitr::include_graphics("./Images/supplychain/The role of ports in the supply chain.jpg")
 ```
 
-## Ports and Their Impact on the Global Supply Chain {#Supply Chain-Seaport impact}
+## Ports and Their Impact on the Global Supply Chain {#SupplyChain-Seaport impact}
 
 1. An efficient supply chain relies on optimized relationships, effective technology, excellent information sharing and streamlined infrastructure.
 2. Port efficiency impacts organizations throughout the supply chain—suppliers, manufacturers, logistics service providers (LSPs), freight forwarders, cargo shipping lines and others.
@@ -77,14 +77,14 @@ Air traffic, weather alerts and maritime conditions
 
 7. Specialized Port Arrangements Can Take Advantage of a Centralized Supply Chain Platform
 
-## Rail Ports {#Supply Chain-Railport}
-## Rail Transport{#Supply Chain-RailTransport}
+## Rail Ports {#SupplyChain-Railport}
+## Rail Transport{#SupplyChain-RailTransport}
 
 1.Rail transport describes the usage of a train to transport passengers and freight along a designated route. Rail vehicles are directionally guided by the tracks on which they run and cannot deviate.
 
 2.All across the globe, railroads are utilized to increase connectivity between regions and are major factors in developing countries.  
 
-## Railroad Network {#Supply Chain-Railroadnetwork}
+## Railroad Network {#SupplyChain-Railroadnetwork}
 
 1.The United States freight rail network runs on almost 140,000 route miles.  It is generally considered the largest, safest and most cost-effective means of transporting freight. 
 
@@ -102,14 +102,14 @@ knitr::include_graphics("./Images/supplychain/Railroad Network.jpg")
 knitr::include_graphics("./Images/supplychain/Types of Railroads.jpg")
 ```
 
-## How can freight railroads be accessed? {#Supply Chain-Railroad}
+## How can freight railroads be accessed? {#SupplyChain-Railroad}
 1. Along the main rail network, there are what are known as railroad sidings. 
 
 2. A railroad siding is a small stretch of track designed for minimal traffic and low speeds. These tracks are accompanied by warehouses to be used to store and transport goods from region to region. 
 
 3. Railroad sidings make distribution simpler by increasing the proximity of the warehouse to the route and decreasing overall transportation costs but are not always available to smaller manufacturers.
 
-## What is a Rail-port? {#Supply Chain-what is Railport}
+## What is a Rail-port? {#SupplyChain-whatisRailport}
 
 1.Rail-ports are gateway centers which provide a multitude of services in addition to rail / road transshipment, warehousing and pre- and on-carriage by truck tailored to each customer’s needs.  
 
@@ -120,7 +120,7 @@ knitr::include_graphics("./Images/supplychain/Types of Railroads.jpg")
 ```{r Figure 7.6, echo=FALSE, fig.cap='Rail-port', fig.width=4, fig.align='center'}
 knitr::include_graphics("./Images/supplychain/Rail-port.jpg")
 ```
-## Types of Rail Terminals {#Supply Chain-Railporttypes}
+## Types of Rail Terminals {#SupplyChain-Railporttypes}
 
 1.Bulk
  linked with extractive industries such as agriculture, mining,wood products, ect.
@@ -140,7 +140,7 @@ loading and unloading unitized freight from railcars
 ```{r Figure 7.7, echo=FALSE, fig.cap='Types of Rail Terminals', fig.width=4, fig.align='center'}
 knitr::include_graphics("./Images/supplychain/Types of Rail Terminals.jpg")
 ```
-##The Global Supply Chain {#Supply Chain-Railportglobal}
+##The Global Supply Chain {#SupplyChain-Railportglobal}
 
 Global freight supply chains are complex systems comprised of steamship lines, truckers, railroads, ports and a whole menagerie of other businesses and practices. 
 
@@ -148,7 +148,7 @@ Railroads and Rail-ports function as an essential platforms within global supply
 
 These supply chains are ever evolving to keep up with changes in trade patterns, updated supply chain management and even new technologies.
 
-##The Role of Rail in the Supply Chain {#Supply Chain-Railportsupplychain}
+##The Role of Rail in the Supply Chain {#SupplyChain-Railportsupplychain}
 1. Railroads are considered the middleman of the supply chain.  They move about 40% of long-distance U.S. freight.
 
 2. They are an important conduit for freight between port and last-mile truck service. As such, freight has three transportation options upon arrival at a sea port:
@@ -178,7 +178,7 @@ Half of the intermodal traffic is due to imports and exports
 
 7.Aside from intermodal, railroads move commodities such as crude oil, ethanol and coal to help meet energy needs.  It also moves essential chemicals such as fertilizers, plastic resins, caustic soda, and much more
 
-## Rail Service During Supply Chain Disruptions {#Supply Chain-Railport service}
+## Rail Service During Supply Chain Disruptions {#SupplyChain-Railportservice}
 
 1.In recent years the supply chain has been greatly impacted by the global pandemic by changes in on consumer purchasing trends, worker preferences, and rapidly changing global and national economies.  
 
@@ -203,7 +203,7 @@ Quick response to bring idled locomotives back online
 Railroads and their trucking partners work to move shipments from intermodal terminals as quickly as possible  
 One railroad keeps a pool of truck chassis to help maximize truck hauling capacity while another railroad mounts intermodal containers on any chassis brought to it to help reduce truckers driving without any cargo
 
-## The Economic Impact of Freight Railroads {#Supply Chain-Railportimpact}
+## The Economic Impact of Freight Railroads {#SupplyChain-Railportimpact}
 
 1.Freight railroads serve nearly every industrial, wholesale, retail and resource-based sector of the American economy. 
 
@@ -211,8 +211,9 @@ One railroad keeps a pool of truck chassis to help maximize truck hauling capaci
 
 3.Railroads account for around 1/3 of U.S. exports by volume without which we would not be competitive in the global market. 
 
-## First/ Last Mile {#Supply Chain-First and Last Mile}
-## What Is First/Last Mile? {#Supply Chain-whatisFirst&LastMile}
+## First/ Last Mile {#SupplyChain-FirstandLastMile}
+
+## What Is First/Last Mile? {#SupplyChain-whatismile}
 What is First Mile?
 Depending on the Industry it can mean many things:
 A manufacture may consider the First Mile when their completed goods are shipped from factory to their distribution hub. 
@@ -266,7 +267,7 @@ The remainder of this lecture will discuss First/Last Mile, and how it relates t
 ```{r Figure 7.14, echo=FALSE, fig.cap='Relation with Transportation', fig.width=4, fig.align='center'}
 knitr::include_graphics("./Images/supplychain/Relation with Transportation.jpg")
 ```
-## How does it relate to Transportation? {#Supply Chain-relation}
+## How does it relate to Transportation? {#SupplyChain-relation}
 
 Whether ”First” or “Last Mile”, they both serve as connectors that either initiate or end a trip. 
 In Transportation, there are two types or trips being done:
@@ -294,7 +295,7 @@ Since there is not overlap in the networks, overhead costs increase with less ef
 Example: The retail company, whether it's serving the brick-and-mortar store or the online store, the supply chain is designed to serve both channel simultaneously. 
 If a customer can’t find an item in the brick-and-mortar store, they can order it online for the costumer. OR If the customer orders an Item online, they can choose to pick up the item at the brick-and-mortar store.
 
-##Challenges? {#Supply Chain-challenge}
+##Challenges? {#SupplyChain-challenge}
 Movement of Goods
 One more note on Omnichannel Supply Chains, 
 1.With the implementation of algorithms and predictive analytics, companies hope to be more efficient in delivering goods... But there are consequences.  
@@ -309,7 +310,7 @@ Land is cheaper and available, more ample space for large trucks to move in and 
 7.But to move goods from the distribution hub to the final-destination (Last Mile), the challenge is traffic encountered in densely packed cities, accidents and other unforeseen events make delivery route optimization very difficult.  
 8.Finding parking in order to deliver goods can sometimes be difficult. 
 
-## Solutions? {#Supply Chain-Soln}
+## Solutions? {#SupplyChain-Soln}
 
 Movement of Goods
 1.One way the industry can combat last mile challenges. Is by opening a secondary distribution hub outside the major city limits. Goods would go from the regional distribution center to this secondary distribution hub. Then the goods are closer to final-destination in the city.
@@ -345,7 +346,7 @@ The primary objective is to identify an urban logistic optimization             
 ```{r Figure 7.16, echo=FALSE, fig.cap='Autonomous Delivery Robot', fig.width=4, fig.align='center'}
 knitr::include_graphics("./Images/supplychain/Autonomous Delivery Robot.jpg")
 ```
-## How does it relate to Transportation? {#Supply Chain-whatisrelation}
+## How does it relate to Transportation? {#SupplyChain-whatisrelation}
 
 Movement of People
 The First/Last Mile regarding the movement of people is the final step in the network to move people from the Main Mile to their destination.
@@ -361,7 +362,7 @@ Zoning such as Complete Streets.
 ```{r Figure 7.17, echo=FALSE, fig.cap='Passenger transport', fig.width=4, fig.align='center'}
 knitr::include_graphics("./Images/supplychain/Passenger transport.jpg")
 ```
-## Challenges {#Supply Chain-whatisFirstchallenges}
+## Challenges {#SupplyChain-whatisFirstchallenges}
 
 Movement of People: 
 The challenges with the Last Mile regarding public transit is transit agencies failure to plan out major transit stops with major destinations.
@@ -370,7 +371,7 @@ The Census Bureau finds that 46% of public transit commuters prefer to take buse
 The problem with walking is if the transit stop is more then ¼ mile away, nor the First/Last Mile, commuters may opt to not use public infrastructure.
 
 
-## Solutions {#Supply Chain-solution}
+## Solutions {#SupplyChain-solution}
 
 Movement of People:
 Solutions include:
@@ -382,20 +383,18 @@ On-demand micro transit
 Complete Streets
 Mobility Hubs (Broward County LRT concept)
 
-## Long Haul, Short Haul {#Supply Chain-haul}
+## Long Haul, Short Haul {#SupplyChain-haul}
 
-## What is Long Haul/Short Haul? {#Supply Chain-whatishaul}
+## What is Long Haul/Short Haul? {#SupplyChain-whatishaul}
 
 In Transportation, a trip can be classified as a long or short haul.
 Often, various modes (land, air, sea) of transportation are utilized for long and short haul. 
 What determines a trip being a long or short haul is the type of good being transported and the location of the final destination.
 
-
-
 ```{r Figure 7.18, echo=FALSE, fig.cap='Long Haul and Short Haul', fig.width=4, fig.align='center'}
 knitr::include_graphics("./Images/supplychain/Long Haul and Short Haul.jpg")
 ```
-##Land Transportation {#Supply Chain-landtpt}
+##Land Transportation {#SupplyChain-landtpt}
 
 Long Haul: 
 Consists of larger trucks that can haul larger loads of goods across long distances. 
@@ -413,7 +412,7 @@ Examples: Delivery of materials to construction sites, Retail products from ware
 knitr::include_graphics("./Images/supplychain/Short Haul.jpg")
 ```
 
-## Air Transportation {#Supply Chain-airtpt}
+## Air Transportation {#SupplyChain-airtpt}
 
 Long Haul: 
 Commercial flights are categorized as short, medium, or long hauls, depending on the distances needed to travel.
