@@ -18,7 +18,7 @@ Seaports are functioning as platforms within global supply chains and global pro
 These supply chains are highly dynamic as they react to changes in global trade patterns, consumer preferences, and advances in supply chain management and information technology.
 
 ```{r Figure 7.1, echo=FALSE, fig.cap='Ports and Supply Chain', fig.width=4, fig.align='center'}
-knitr::include_graphics("./Images/supplychain/Ports and Supply Chain.jpg")
+knitr::include_graphics("./Images/SupplyChain/Ports and Supply Chain.jpg")
 ```
 ## The role of ports in the supply chain {#SupplyChain-Seaportrole}
 
@@ -34,7 +34,7 @@ knitr::include_graphics("./Images/supplychain/Ports and Supply Chain.jpg")
  
 
 ```{r Figure 7.2, echo=FALSE, fig.cap='The role of ports in the supply chain', fig.width=4, fig.align='center'}
-knitr::include_graphics("./Images/supplychain/The role of ports in the supply chain.jpg")
+knitr::include_graphics("./Images/SupplyChain/The role of ports in the supply chain.jpg")
 ```
 
 ## Ports and Their Impact on the Global Supply Chain {#SupplyChain-Seaport impact}
@@ -43,7 +43,7 @@ knitr::include_graphics("./Images/supplychain/The role of ports in the supply ch
 2. Port efficiency impacts organizations throughout the supply chain—suppliers, manufacturers, logistics service providers (LSPs), freight forwarders, cargo shipping lines and others.
 
 ```{r Figure 7.3, echo=FALSE, fig.cap='Ports and Their Impact on the Global Supply Chain', fig.width=4, fig.align='center'}
-knitr::include_graphics("./Images/supplychain/Ports and Their Impact on the Global Supply Chain.jpg")
+knitr::include_graphics("./Images/SupplyChain/Ports and Their Impact on the Global Supply Chain.jpg")
 ```
 
 3. Some of the problems with the current port system and discuss possible solutions to help streamline port and downstream supply chain operations:
@@ -94,12 +94,12 @@ Air traffic, weather alerts and maritime conditions
 
 
 ```{r Figure 7.4, echo=FALSE, fig.cap='Railroad Network', fig.width=4, fig.align='center'}
-knitr::include_graphics("./Images/supplychain/Railroad Network.jpg")
+knitr::include_graphics("./Images/SupplyChain/Railroad Network.jpg")
 ```
 
 
 ```{r Figure 7.5, echo=FALSE, fig.cap='Types of Railroads', fig.width=4, fig.align='center'}
-knitr::include_graphics("./Images/supplychain/Types of Railroads.jpg")
+knitr::include_graphics("./Images/SupplyChain/Types of Railroads.jpg")
 ```
 
 ## How can freight railroads be accessed? {#SupplyChain-Railroad}
@@ -118,7 +118,7 @@ knitr::include_graphics("./Images/supplychain/Types of Railroads.jpg")
 3.The Rail-port concept combines the benefits of rail, truck and regional warehouses.
 
 ```{r Figure 7.6, echo=FALSE, fig.cap='Rail-port', fig.width=4, fig.align='center'}
-knitr::include_graphics("./Images/supplychain/Rail-port.jpg")
+knitr::include_graphics("./Images/SupplyChain/Rail-port.jpg")
 ```
 ## Types of Rail Terminals {#SupplyChain-Railporttypes}
 
@@ -138,7 +138,7 @@ loading and unloading unitized freight from railcars
 
 
 ```{r Figure 7.7, echo=FALSE, fig.cap='Types of Rail Terminals', fig.width=4, fig.align='center'}
-knitr::include_graphics("./Images/supplychain/Types of Rail Terminals.jpg")
+knitr::include_graphics("./Images/SupplyChain/Types of Rail Terminals.jpg")
 ```
 ##The Global Supply Chain {#SupplyChain-Railportglobal}
 
@@ -159,7 +159,7 @@ On-dock: involves the direct loading of the container onto a train within the sa
 
 
 ```{r Figure 7.8, echo=FALSE, fig.cap='The Role of Rail in the Supply Chain', fig.width=4, fig.align='center'}
-knitr::include_graphics("./Images/supplychain/The Role of Rail in the Supply Chain.jpg")
+knitr::include_graphics("./Images/SupplyChain/The Role of Rail in the Supply Chain.jpg")
 ```
 3. Rail intermodal is the transportation method of moving freight across the globe by both railroad and truck. 
 
@@ -169,7 +169,7 @@ knitr::include_graphics("./Images/supplychain/The Role of Rail in the Supply Cha
 
 
 ```{r Figure 7.9, echo=FALSE, fig.cap='Role of Rail', fig.width=4, fig.align='center'}
-knitr::include_graphics("./Images/supplychain/Role of Rail.jpg")
+knitr::include_graphics("./Images/SupplyChain/Role of Rail.jpg")
 ```
 
 6.Per the Association of American Railroads:
@@ -186,7 +186,7 @@ Half of the intermodal traffic is due to imports and exports
 
 
 ```{r Figure 7.10, echo=FALSE, fig.cap='Rail Service During Supply Chain Disruptions', fig.width=4, fig.align='center'}
-knitr::include_graphics("./Images/supplychain/Rail Service During Supply Chain Disruptions.jpg")
+knitr::include_graphics("./Images/SupplyChain/Rail Service During Supply Chain Disruptions.jpg")
 ```
 
 Rail networks have been combatting these disruptions by the following:
@@ -223,7 +223,7 @@ But in short, First Mile is when the good travels through the first leg of the s
 
  
 ```{r Figure 7.11, echo=FALSE, fig.cap='First and Last Mile', fig.width=4, fig.align='center'}
-knitr::include_graphics("./Images/supplychain/First and Last Mile.jpg")
+knitr::include_graphics("./Images/SupplyChain/First and Last Mile.jpg")
 ```
 
 What is Last Mile?
@@ -246,7 +246,7 @@ train station to work (final destination).
  
 
 ```{r Figure 7.12, echo=FALSE, fig.cap='First and Last Mile Operation', fig.width=4, fig.align='center'}
-knitr::include_graphics("./Images/supplychain/First and Last Mile Operation.jpg")
+knitr::include_graphics("./Images/SupplyChain/First and Last Mile Operation.jpg")
 ```
 
 The concept of Last Mile was first introduced in the telecommunications industry. 
@@ -257,7 +257,7 @@ The Last Mile is a bandwidth bottleneck because there is a limit to how much   d
 The Last Mile is also the most expensive because of all the equipment needed   per customer and the number of customers that exist. 
 
 ```{r Figure 7.13, echo=FALSE, fig.cap='How Networks are Built', fig.width=4, fig.align='center'}
-knitr::include_graphics("./Images/supplychain/How Networks are Built.jpg")
+knitr::include_graphics("./Images/SupplyChain/How Networks are Built.jpg")
 ```
 The concept of Last Mile first started with the telecommunications industry. But it has since branched out to other Industries. Most notably, the Transportation Industry  
 
@@ -265,7 +265,7 @@ The remainder of this lecture will discuss First/Last Mile, and how it relates t
 
 
 ```{r Figure 7.14, echo=FALSE, fig.cap='Relation with Transportation', fig.width=4, fig.align='center'}
-knitr::include_graphics("./Images/supplychain/Relation with Transportation.jpg")
+knitr::include_graphics("./Images/SupplyChain/Relation with Transportation.jpg")
 ```
 ## How does it relate to Transportation? {#SupplyChain-relation}
 
@@ -277,7 +277,7 @@ The First Mile isn’t as much of an issue when delivering goods compared to peo
 
 
 ```{r Figure 7.15, echo=FALSE, fig.cap='How does it relate to Transportation', fig.width=4, fig.align='center'}
-knitr::include_graphics("./Images/supplychain/How does it relate to Transportation.jpg")
+knitr::include_graphics("./Images/SupplyChain/How does it relate to Transportation.jpg")
 ```
  
 Movement of Goods
@@ -344,7 +344,7 @@ The primary objective is to identify an urban logistic optimization             
 
 
 ```{r Figure 7.16, echo=FALSE, fig.cap='Autonomous Delivery Robot', fig.width=4, fig.align='center'}
-knitr::include_graphics("./Images/supplychain/Autonomous Delivery Robot.jpg")
+knitr::include_graphics("./Images/SupplyChain/Autonomous Delivery Robot.jpg")
 ```
 ## How does it relate to Transportation? {#SupplyChain-whatisrelation}
 
@@ -360,7 +360,7 @@ Micro transit
 Zoning such as Complete Streets. 
 
 ```{r Figure 7.17, echo=FALSE, fig.cap='Passenger transport', fig.width=4, fig.align='center'}
-knitr::include_graphics("./Images/supplychain/Passenger transport.jpg")
+knitr::include_graphics("./Images/SupplyChain/Passenger transport.jpg")
 ```
 ## Challenges {#SupplyChain-whatisFirstchallenges}
 
@@ -392,7 +392,7 @@ Often, various modes (land, air, sea) of transportation are utilized for long an
 What determines a trip being a long or short haul is the type of good being transported and the location of the final destination.
 
 ```{r Figure 7.18, echo=FALSE, fig.cap='Long Haul and Short Haul', fig.width=4, fig.align='center'}
-knitr::include_graphics("./Images/supplychain/Long Haul and Short Haul.jpg")
+knitr::include_graphics("./Images/SupplyChain/Long Haul and Short Haul.jpg")
 ```
 ##Land Transportation {#SupplyChain-landtpt}
 
@@ -402,14 +402,14 @@ Operate in a minimum radius of 250-miles, often between cities, states, or count
 Typically found on interstates. 
 
 ```{r Figure 7.19, echo=FALSE, fig.cap='Long Haul', fig.width=4, fig.align='center'}
-knitr::include_graphics("./Images/supplychain/Long Haul.jpg")
+knitr::include_graphics("./Images/SupplyChain/Long Haul.jpg")
 ```
 Short Haul:
 Consists of small trucks that operate in a network within a 150-mile radius.
 Usually operate within a city.
 Examples: Delivery of materials to construction sites, Retail products from warehouses to brick-and-mortar stores. 
 ```{r Figure 7.20, echo=FALSE, fig.cap='Short Haul', fig.width=4, fig.align='center'}
-knitr::include_graphics("./Images/supplychain/Short Haul.jpg")
+knitr::include_graphics("./Images/SupplyChain/Short Haul.jpg")
 ```
 
 ## Air Transportation {#SupplyChain-airtpt}
@@ -422,7 +422,7 @@ It can be for both connecting or non-stop flights
 Pilots spend more days away then home. 
 
 ```{r Figure 7.21, echo=FALSE, fig.cap='Air Transportation Long Haul', fig.width=4, fig.align='center'}
-knitr::include_graphics("./Images/supplychain/Air Transportation Long Haul.jpg")
+knitr::include_graphics("./Images/SupplyChain/Air Transportation Long Haul.jpg")
 ```
 Ultra Long Haul: 
 Ultra long Haul (ULH) is an operational model that arose due to the Covid-19 virus.
@@ -433,7 +433,7 @@ Produce more network flexibility.
 Allow the ability to bypass densely populated hub airports.  
 
 ```{r Figure 7.22, echo=FALSE, fig.cap='Ultra Long Haul', fig.width=4, fig.align='center'}
-knitr::include_graphics("./Images/supplychain/Ultra Long Haul.jpg")
+knitr::include_graphics("./Images/SupplyChain/Ultra Long Haul.jpg")
 ```
 
 Short Haul: 
@@ -443,5 +443,5 @@ Pilots make several trips a day and come back the same day.
 
 
 ```{r Figure 7.23, echo=FALSE, fig.cap='Air Transportation Short Haul', fig.width=4, fig.align='center'}
-knitr::include_graphics("./Images/supplychain/Air Transportation Short Haul.jpg")
+knitr::include_graphics("./Images/SupplyChain/Air Transportation Short Haul.jpg")
 ```
