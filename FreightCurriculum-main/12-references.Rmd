@@ -1,0 +1,12 @@
+`r if (knitr::is_html_output()) '
+# References {-}
+'`
+
+Bureau of Transportation Statistics (2014). Freight Transportation. USDOT. Washington, DC. URL: https://www.bts.gov/topics/freight-transportation.
+
+FHWA (2019). Traffic Monitoring Guide, Appendix C. Vehicle Types. USDOT. Washington, DC. URL: https://www.fhwa.dot.gov/policyinformation/tmguide/tmg_2013/vehicle-types.cfm.
+
+Mannering, Fred L. and Washburn, Scott S. (2019). Principles of Highway Engineering and Traffic Analysis, 7th Edition. John Wiley and Sons, Hoboken, NJ.
+
+Transportation Research Board (2016). Highway Capacity Manual, Sixth Edition: A Guide for Multimodal Mobility Analysis. Transportation Research Board, Washington, DC.
+

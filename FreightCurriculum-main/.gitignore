@@ -1,0 +1,10 @@
+.Rproj.user
+.Rhistory
+.RData
+_publish.R
+rsconnect
+
+# eBook build output
+*.epub
+*.mobi
+*.pdf
