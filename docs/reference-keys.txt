@@ -15,7 +15,9 @@ fig:FigureTopLoader1
 fig:FigureTopLoader2
 fig:FigureTopLoader3
 fig:FigureFMCSA
-preface
+fig:crashstatImage
+fig:crashratestatImage
+fig:crashtrendImage
 intro
 intro-agencies
 intro-statistics
@@ -122,3 +124,6 @@ organization-focusareas
 organization-usdot
 organization-usdotsafety
 organization-overview
+Safety
+Safety-CrashFrequency
+Safety-CrashSeverity
