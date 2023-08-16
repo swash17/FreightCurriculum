@@ -1,0 +1,47 @@
+# Safety {#Safety}
+
+The objective measure reflected in the prevalence of crashes and their harm.
+
+## Crash Frequency {#Safety-CrashFrequency}
+
+1) Crash: an event that produces injury and/or property damage, involves a motor vehicle in transport, and occurs on a trafficway or while the vehicle is still in motion after running off the trafficway.
+
+2) Crash frequency: refers to the counts the number of crashes that have occurred at a given location (along a roadway section or at an intersection) over a specified time period, typically three to five years.
+
+## Crash Severity {#Safety-CrashSeverity}
+
+1) Crash severity: refers to the level of seriousness or extent of harm caused by a traffic collision or accident. It is often measured based on the most severe injury sustained by a person involved in the crash.
+
+2) Severity levels-Highway Safety Manual
+
+* F (Fatal crash): a police-reported crash involving a motor vehicle in transport on a trafficway in which at least one person dies within 30 days of the crash.
+* I (Injury crash): a police-reported crash that involves a motor vehicle in transport on a trafficway in which no one died but at least one person was reported to have: (i) an incapacitating injury; (ii) a visible but not incapacitating injury; (iii) a possible, not visible injury; or (iv) an injury of unknown severity.
+* PDO (Property damage only): a police- reported crash involving a motor vehicle in transport on a trafficway in which no one involved in the crash suffered any injuries.
+
+3) Other severity levels-KABCO
+
+* K: Killed (fatal)
+* A: Disabling injury (serious)
+* B: Evident injury (moderate)
+* C: Possible injury (minor)
+* O: No evident injury (none)
+
+4) Statistics
+
+**2020 national crash statistics**
+
+```{r crashstatImage, echo=FALSE, fig.cap='2020 national crash statistics', fig.width=6, fig.align='center'}
+knitr::include_graphics("./Images/Safety/NationalCrash.png")
+```
+
+```{r crashratestatImage, echo=FALSE, fig.cap='2020 national crash rates statistics', fig.width=6, fig.align='center'}
+knitr::include_graphics("./Images/Safety/NationalRates.png")
+```
+
+**Crash trend, by severity, 1975-2020**
+
+```{r crashtrendImage, echo=FALSE, fig.cap='Crash trend, by severity, 1975-2020', fig.width=6, fig.align='center'}
+knitr::include_graphics("./Images/Safety/CrashTrendBySeverity.png")
+```
+
+Source: https://crashstats.nhtsa.dot.gov/Api/Public/ViewPublication/813375
