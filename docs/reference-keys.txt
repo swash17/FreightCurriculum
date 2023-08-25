@@ -1,6 +1,9 @@
 fig:PortImage
 fig:FreightByWeightImage
 fig:FreightByValueImage
+fig:FHWAvehicleClassifications
+fig:TractorNoSleeper
+fig:TractorWithSleeper
 tab:DesignVehDimensions
 fig:FigurePortCranesYokohama
 fig:FigurePortCranesMiami
@@ -18,6 +21,7 @@ fig:FigureFMCSA
 fig:crashstatImage
 fig:crashratestatImage
 fig:crashtrendImage
+fig:crashtrendImage2
 intro
 intro-agencies
 intro-statistics
@@ -38,8 +42,8 @@ intro-Goods_movement
 intro-port_Logistic
 VehChars
 VehChars-Classes
-types-of-tractors
-types-of-trailers
+tractor-truck
+semi-trailer
 performance-characteristics-accel-decel-speed-governing-etc.
 unloaded-weights
 geometric-design-considerations-turning-radius-sight-distance-etc.
@@ -127,3 +131,5 @@ organization-overview
 Safety
 Safety-CrashFrequency
 Safety-CrashSeverity
+Safety-DriverFatigue
+Safety-DriverCompetency

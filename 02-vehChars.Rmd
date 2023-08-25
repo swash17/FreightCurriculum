@@ -1,39 +1,98 @@
 # Freight Vehicle Characteristics {#VehChars}
 
-## FHWA truck classifications {#VehChars-Classes}
+## Vehicle Classifications {#VehChars-Classes}
 
 
-```{r Figure 3.1, echo=FALSE, fig.cap='FHWA truck Classifications', out.width="75%", fig.align='center'}
+Figure \@ref(fig:FHWAvehicleClassifications) shows the vehicle classification scheme according to the Federal Highway Administration (FHWA).
+
+
+```{r FHWAvehicleClassifications, echo=FALSE, fig.cap='FHWA Vehicle Classifications', out.width="75%", fig.align='center'}
 knitr::include_graphics("./Images/VehClassesFHWA.jpg")
 ```
 
 Source: FHWA (2019). Traffic Monitoring Guide, Appendix C. Vehicle Types. USDOT. Washington, DC. URL: https://www.fhwa.dot.gov/policyinformation/tmguide/tmg_2013/vehicle-types.cfm.
 
 
-## Types of tractors
+Parcel delivery vehicles (e.g., UPS, FedEx) are usually of type class 5 or 6. Vehicles in classes 6 and 7 are largely comprised of construction vehicles (e.g., dump trucks, concrete mixers). Vehicles in classes 5-7 are often referred to as single unit trucks (SUTs). This course focuses on vehicles in classifications 8-12, vehicle types most commonly used for the transportation of freight over medium- and long-haul distances. Such vehicles consist of a tractor + semi-trailer configuration. These vehicles are often informally referred to as a 'Semi-Truck' or 'Tractor-Trailer'.
 
-Manufacturers of populer truck models in the United States:
 
-- Peterbilt: https://www.peterbilt.com/
+## Tractor Truck
+
+The tractor provides the motive force to pull the attached semi-trailer. The near universal design of truck tractors used in North America consist of an engine and hood over the front axle in front of the cab. Figure \@ref(fig:TractorNoSleeper) shows an example of this design. The tractor shown in this figure is often referred to as a 'Day Cab' style.
+
+
+```{r TractorNoSleeper, echo=FALSE, fig.cap='Tractor without sleeper cab', out.width="75%", fig.align='center'}
+knitr::include_graphics("./Images/VehicleChars/TractorNoSleeper.png")
+```
+
+Source: https://www.macktrucks.com/
+
+Figure \@ref(fig:TractorWithSleeper) shows an example of a 'Sleeper Cab' tractor design. This tractor includes a compartment that can be used for sleeping by the driver during overnight stops on long-haul trips.
+
+```{r TractorWithSleeper, echo=FALSE, fig.cap='Tractor without sleeper cab', out.width="75%", fig.align='center'}
+knitr::include_graphics("./Images/VehicleChars/TractorWithSleeperCab.png")
+```
+
+Source: https://www.macktrucks.com/
+
+
+Manufacturers of popular truck models in the United States include:  
+
 - Freightliner: https://www.freightliner.com/
-- Mack: https://www.macktrucks.com/
 - Kenworth: https://www.kenworth.com/
+- Mack: https://www.macktrucks.com/
+- Peterbilt: https://www.peterbilt.com/
 - Volvo: https://www.volvotrucks.us/
 - Western Star: https://www.westernstartrucks.com/
 
 
-## Types of trailers
+## Semi-Trailer
 
-1. Flatbed Trailer
-2. Dry Vans
-3. Refrigerated Trailer
-4. Lowboy Trailers
-5. Step Deck Trailers
-6. Etc.
+A semi-trailer does not include a front axle.
 
-https://truckfreighter.com/tractor-types-trucks-trailers
+Commonly used trailer types include the following (not an exhaustive list):
 
+Box Trailer (Dry Van Trailer)
+- fully enclosed
+- typical cargo: non-perishable goods, construction-related products, and cargo that does not require temperature control
+- typical length: 53 ft
 
+Intermodal Trailer (Container Chassis)
+- used to transport intermodal shipping containers to and from container depots, seaports, rail yards, and other shipping facilities
+- typical length: 20 or 40 ft cargo container
+
+Flatbed Trailer
+- flat deck with no containment, doors, or roof to enclose loads. Thus, provide considerable flexibility for un/loading and laying out loads.
+- primarily used for shipping construction materials and various equipment. Essentially, any load that does not require protection from weather and other elements can be transported using flatbed trailers.
+- typical length: 48 ft, 53 ft
+
+Side Curtain Trailer
+- combines the loading benefits of a flatbed trailer with a ceiling, front wall, and rear doors for cargo containment and protection, but allows for side loading.
+- Consumer goods, lumber, etc.
+- typical length: 40 ft
+
+Refrigerator Trailer (Reefer Trailer)
+- equipped with a built-in temperature control system and insulation to protect temperature-sensitive shipments
+- typical cargo: Food (meat, fish, dairy, etc.), Pharmaceuticals, and similar
+- typical length: 48 ft, 53 ft
+
+Tanker Trailer
+- cylindrical and used to carry liquids
+- typical cargo: Petrochemicals, dry food, beverages, asphalt
+- typical length: 53 ft
+
+Dry Bulk Trailers (pneumatic tankers)
+- used to transport dry goods, such as flour, maize, cement, sand, and similar commodities. These tankers are fully enclosed and vacuum-sealed to prevent any type of leakage. 
+- typical length: 20 ft, 40 ft
+
+Lowboy Trailer
+- features a very low deck, The primary purpose of this trailer type is to transport tall equipment or cargo without the need to obtain height permits.
+- typical cargo: Large equipment and machinery, Lowboys are generally used to transport oversized materials from mining sites, bulldozers, heavy machinery, large vehicles, and excavators. 
+
+Car Carrier Trailer (Car Hauler Trailer)
+- typical cargo: Vehicles (Sedans, SUVs, trucks, etc.)
+
+Add a photo of each trailer type
 
 
 

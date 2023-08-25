@@ -84,7 +84,7 @@ While regulations set maximum numbers of driving and work hours for jobs such as
 
 **Summary of Hours of Service Regulations**
 
-```{r crashtrendImage, echo=FALSE, fig.cap='Hours-of-service regulations', fig.width=6, fig.align='center'}
+```{r crashtrendImage2, echo=FALSE, fig.cap='Hours-of-service regulations', fig.width=6, fig.align='center'}
 knitr::include_graphics("./Images/Safety/regulations.png")
 ```
 
