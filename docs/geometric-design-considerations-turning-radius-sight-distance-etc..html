@@ -4,18 +4,18 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>2.6 Geometric design considerations (turning radius, sight distance, etc.) | Introduction to Freight Transportation</title>
+  <title>2.7 Geometric design considerations (turning radius, sight distance, etc.) | Introduction to Freight Transportation</title>
   <meta name="description" content="Material designed for an introduction to freight transportation course. Initial development of this material was sponsored by the Freight Mobility Research Institute (http://eng.fau.edu/research/fmri/)" />
   <meta name="generator" content="bookdown 0.34 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="2.6 Geometric design considerations (turning radius, sight distance, etc.) | Introduction to Freight Transportation" />
+  <meta property="og:title" content="2.7 Geometric design considerations (turning radius, sight distance, etc.) | Introduction to Freight Transportation" />
   <meta property="og:type" content="book" />
   
   <meta property="og:description" content="Material designed for an introduction to freight transportation course. Initial development of this material was sponsored by the Freight Mobility Research Institute (http://eng.fau.edu/research/fmri/)" />
   <meta name="github-repo" content="swash17/FreightCurriculum" />
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="2.6 Geometric design considerations (turning radius, sight distance, etc.) | Introduction to Freight Transportation" />
+  <meta name="twitter:title" content="2.7 Geometric design considerations (turning radius, sight distance, etc.) | Introduction to Freight Transportation" />
   
   <meta name="twitter:description" content="Material designed for an introduction to freight transportation course. Initial development of this material was sponsored by the Freight Mobility Research Institute (http://eng.fau.edu/research/fmri/)" />
   
@@ -25,14 +25,14 @@
 <meta name="author" content="Lili Du, University of Florida, https://www.essie.ufl.edu/people/name/lili-du/" />
 
 
-<meta name="date" content="2023-08-25" />
+<meta name="date" content="2023-08-27" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-<link rel="prev" href="unloaded-weights.html"/>
+<link rel="prev" href="performance-characteristics-accel-decel-speed-governing-etc..html"/>
 <link rel="next" href="loading-characteristics.html"/>
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
@@ -60,6 +60,28 @@
 <style type="text/css">
   
   div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+</style>
+<style type="text/css">
+/* Used with Pandoc 2.11+ new --citeproc when CSL is used */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
 </style>
 
 <link rel="stylesheet" href="style.css" type="text/css" />
@@ -104,9 +126,10 @@
 <li class="chapter" data-level="2.1" data-path="VehChars-Classes.html"><a href="VehChars-Classes.html"><i class="fa fa-check"></i><b>2.1</b> Vehicle Classifications</a></li>
 <li class="chapter" data-level="2.2" data-path="tractor-truck.html"><a href="tractor-truck.html"><i class="fa fa-check"></i><b>2.2</b> Tractor Truck</a></li>
 <li class="chapter" data-level="2.3" data-path="semi-trailer.html"><a href="semi-trailer.html"><i class="fa fa-check"></i><b>2.3</b> Semi-Trailer</a></li>
-<li class="chapter" data-level="2.4" data-path="performance-characteristics-accel-decel-speed-governing-etc..html"><a href="performance-characteristics-accel-decel-speed-governing-etc..html"><i class="fa fa-check"></i><b>2.4</b> Performance characteristics (accel, decel, speed governing, etc.)</a></li>
-<li class="chapter" data-level="2.5" data-path="unloaded-weights.html"><a href="unloaded-weights.html"><i class="fa fa-check"></i><b>2.5</b> Unloaded weights</a></li>
-<li class="chapter" data-level="2.6" data-path="geometric-design-considerations-turning-radius-sight-distance-etc..html"><a href="geometric-design-considerations-turning-radius-sight-distance-etc..html"><i class="fa fa-check"></i><b>2.6</b> Geometric design considerations (turning radius, sight distance, etc.)</a></li>
+<li class="chapter" data-level="2.4" data-path="physical-dimensions.html"><a href="physical-dimensions.html"><i class="fa fa-check"></i><b>2.4</b> Physical Dimensions</a></li>
+<li class="chapter" data-level="2.5" data-path="unloaded-and-loaded-weight-characteristics.html"><a href="unloaded-and-loaded-weight-characteristics.html"><i class="fa fa-check"></i><b>2.5</b> Unloaded and Loaded Weight Characteristics</a></li>
+<li class="chapter" data-level="2.6" data-path="performance-characteristics-accel-decel-speed-governing-etc..html"><a href="performance-characteristics-accel-decel-speed-governing-etc..html"><i class="fa fa-check"></i><b>2.6</b> Performance characteristics (accel, decel, speed governing, etc.)</a></li>
+<li class="chapter" data-level="2.7" data-path="geometric-design-considerations-turning-radius-sight-distance-etc..html"><a href="geometric-design-considerations-turning-radius-sight-distance-etc..html"><i class="fa fa-check"></i><b>2.7</b> Geometric design considerations (turning radius, sight distance, etc.)</a></li>
 </ul></li>
 <li class="chapter" data-level="3" data-path="loading-characteristics.html"><a href="loading-characteristics.html"><i class="fa fa-check"></i><b>3</b> Loading Characteristics</a>
 <ul>
@@ -235,120 +258,37 @@
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="geometric-design-considerations-turning-radius-sight-distance-etc." class="section level2 hasAnchor" number="2.6">
-<h2><span class="header-section-number">2.6</span> Geometric design considerations (turning radius, sight distance, etc.)<a href="geometric-design-considerations-turning-radius-sight-distance-etc..html#geometric-design-considerations-turning-radius-sight-distance-etc." class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<p>AASHTO’s “A Policy on Geometric Design of Highways and Streets”, commonly referred to as the “Green Book” includes guidelines for design vehicle dimensions. Table <a href="geometric-design-considerations-turning-radius-sight-distance-etc..html#tab:DesignVehDimensions">2.1</a> lists those values for the commercial truck classifications.</p>
-<table style="width:100%;">
-<caption><span id="tab:DesignVehDimensions">Table 2.1: </span> Design Vehicle Dimensions (units of feet)</caption>
-<colgroup>
-<col width="10%" />
-<col width="14%" />
-<col width="14%" />
-<col width="14%" />
-<col width="14%" />
-<col width="14%" />
-<col width="14%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><strong>Design Vehicle Type</strong></th>
-<th align="center"><strong>Symbol</strong></th>
-<th align="center"><strong>Overall Height</strong></th>
-<th align="center"><strong>Overall Width</strong></th>
-<th align="center"><strong>Overall Length</strong></th>
-<th align="center"><strong>Overhang-Front</strong></th>
-<th align="center"><strong>Overhang-Rear</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Single Unit Truck</td>
-<td align="center">SU</td>
-<td align="center">11-13.5</td>
-<td align="center">8.0</td>
-<td align="center">30.0</td>
-<td align="center">4.0</td>
-<td align="center">6.0</td>
-</tr>
-<tr class="even">
-<td>Intermediate Semitrailer</td>
-<td align="center">WB-40</td>
-<td align="center">13.5</td>
-<td align="center">8.0</td>
-<td align="center">45.5</td>
-<td align="center">3.0</td>
-<td align="center">4.5#</td>
-</tr>
-<tr class="odd">
-<td>Interstate Semitrailer</td>
-<td align="center">WB-62*</td>
-<td align="center">13.5</td>
-<td align="center">8.5</td>
-<td align="center">69.0</td>
-<td align="center">4.0</td>
-<td align="center">4.5#</td>
-</tr>
-<tr class="even">
-<td>Interstate Semitrailer</td>
-<td align="center">WB-67**</td>
-<td align="center">13.5</td>
-<td align="center">8.5</td>
-<td align="center">73.5</td>
-<td align="center">4.0</td>
-<td align="center">4.5#</td>
-</tr>
-<tr class="odd">
-<td>“Double Bottom” Semitrailer / Trailer</td>
-<td align="center">WB-67D</td>
-<td align="center">13.5</td>
-<td align="center">8.5</td>
-<td align="center">72.3</td>
-<td align="center">2.3</td>
-<td align="center">3.0</td>
-</tr>
-<tr class="even">
-<td>Rocky Mountain Double-Semitrailer / Trailer</td>
-<td align="center">WB-92D</td>
-<td align="center">13.5</td>
-<td align="center">8.5</td>
-<td align="center">97.3</td>
-<td align="center">2.3</td>
-<td align="center">3.0</td>
-</tr>
-<tr class="odd">
-<td>Triple-Semitrailer / Trailer</td>
-<td align="center">WB-100T</td>
-<td align="center">13.5</td>
-<td align="center">8.5</td>
-<td align="center">104.8</td>
-<td align="center">2.3</td>
-<td align="center">3.0</td>
-</tr>
-<tr class="even">
-<td>Turnpike Double Semitrailer / Trailer</td>
-<td align="center">WB-109D</td>
-<td align="center">13.5</td>
-<td align="center">8.5</td>
-<td align="center">114.0</td>
-<td align="center">2.3</td>
-<td align="center">4.5#</td>
-</tr>
-</tbody>
-</table>
-<ul>
-<li>Design vehicle with 48.0-ft trailer as adopted in 1982 STAA (Surface Transportation Assistance Act)
-** Design vehicle with 53.0-ft trailer as grandfathered in 1982 STAA
-# Length of the overhang from the back axle of the tandem axle assembly.</li>
-</ul>
+<div id="geometric-design-considerations-turning-radius-sight-distance-etc." class="section level2 hasAnchor" number="2.7">
+<h2><span class="header-section-number">2.7</span> Geometric design considerations (turning radius, sight distance, etc.)<a href="geometric-design-considerations-turning-radius-sight-distance-etc..html#geometric-design-considerations-turning-radius-sight-distance-etc." class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:TurningRadiiWB62"></span>
+<img src="Images/VehicleChars/WB62TurningTemplate.png" alt="Illustration of length and height dimensions for WB-67 design vehicle" width="75%" />
+<p class="caption">
+Figure 2.6: Illustration of length and height dimensions for WB-67 design vehicle
+</p>
+</div>
+<p>Source: <span class="citation">AASHTO (<a href="#ref-GreenBook7">2018</a>)</span>, (Figure 2-23. Minimum Turning Path for Interstate Semitrailer (WB-62) Design Vehicle)</p>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:TurningRadiiWB67"></span>
+<img src="Images/VehicleChars/WB67TurningTemplate.png" alt="Illustration of length and height dimensions for WB-67 design vehicle" width="75%" />
+<p class="caption">
+Figure 2.7: Illustration of length and height dimensions for WB-67 design vehicle
+</p>
+</div>
+<p>Source: <span class="citation">AASHTO (<a href="#ref-GreenBook7">2018</a>)</span>, (Figure 2-24. Minimum Turning Path for Interstate Semitrailer (WB-67) Design Vehicle)</p>
 
 </div>
 <!-- </div> -->
+<h3>References</h3>
+<div id="refs" class="references csl-bib-body hanging-indent">
+<div id="ref-GreenBook7" class="csl-entry">
+AASHTO. 2018. <em>A Policy on Geometric Design of Highways and Streets</em>. 7th ed. Washington, D.C.: American Association of State Highway; Transportation Officials; The National Academies Press.
+</div>
+</div>
             </section>
 
           </div>
         </div>
       </div>
-<a href="unloaded-weights.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="performance-characteristics-accel-decel-speed-governing-etc..html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
 <a href="loading-characteristics.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>

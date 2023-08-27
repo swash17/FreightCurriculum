@@ -4,18 +4,18 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>2.4 Performance characteristics (accel, decel, speed governing, etc.) | Introduction to Freight Transportation</title>
+  <title>2.6 Performance characteristics (accel, decel, speed governing, etc.) | Introduction to Freight Transportation</title>
   <meta name="description" content="Material designed for an introduction to freight transportation course. Initial development of this material was sponsored by the Freight Mobility Research Institute (http://eng.fau.edu/research/fmri/)" />
   <meta name="generator" content="bookdown 0.34 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="2.4 Performance characteristics (accel, decel, speed governing, etc.) | Introduction to Freight Transportation" />
+  <meta property="og:title" content="2.6 Performance characteristics (accel, decel, speed governing, etc.) | Introduction to Freight Transportation" />
   <meta property="og:type" content="book" />
   
   <meta property="og:description" content="Material designed for an introduction to freight transportation course. Initial development of this material was sponsored by the Freight Mobility Research Institute (http://eng.fau.edu/research/fmri/)" />
   <meta name="github-repo" content="swash17/FreightCurriculum" />
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="2.4 Performance characteristics (accel, decel, speed governing, etc.) | Introduction to Freight Transportation" />
+  <meta name="twitter:title" content="2.6 Performance characteristics (accel, decel, speed governing, etc.) | Introduction to Freight Transportation" />
   
   <meta name="twitter:description" content="Material designed for an introduction to freight transportation course. Initial development of this material was sponsored by the Freight Mobility Research Institute (http://eng.fau.edu/research/fmri/)" />
   
@@ -25,15 +25,15 @@
 <meta name="author" content="Lili Du, University of Florida, https://www.essie.ufl.edu/people/name/lili-du/" />
 
 
-<meta name="date" content="2023-08-25" />
+<meta name="date" content="2023-08-27" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-<link rel="prev" href="semi-trailer.html"/>
-<link rel="next" href="unloaded-weights.html"/>
+<link rel="prev" href="unloaded-and-loaded-weight-characteristics.html"/>
+<link rel="next" href="geometric-design-considerations-turning-radius-sight-distance-etc..html"/>
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
@@ -60,6 +60,28 @@
 <style type="text/css">
   
   div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+</style>
+<style type="text/css">
+/* Used with Pandoc 2.11+ new --citeproc when CSL is used */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
 </style>
 
 <link rel="stylesheet" href="style.css" type="text/css" />
@@ -104,9 +126,10 @@
 <li class="chapter" data-level="2.1" data-path="VehChars-Classes.html"><a href="VehChars-Classes.html"><i class="fa fa-check"></i><b>2.1</b> Vehicle Classifications</a></li>
 <li class="chapter" data-level="2.2" data-path="tractor-truck.html"><a href="tractor-truck.html"><i class="fa fa-check"></i><b>2.2</b> Tractor Truck</a></li>
 <li class="chapter" data-level="2.3" data-path="semi-trailer.html"><a href="semi-trailer.html"><i class="fa fa-check"></i><b>2.3</b> Semi-Trailer</a></li>
-<li class="chapter" data-level="2.4" data-path="performance-characteristics-accel-decel-speed-governing-etc..html"><a href="performance-characteristics-accel-decel-speed-governing-etc..html"><i class="fa fa-check"></i><b>2.4</b> Performance characteristics (accel, decel, speed governing, etc.)</a></li>
-<li class="chapter" data-level="2.5" data-path="unloaded-weights.html"><a href="unloaded-weights.html"><i class="fa fa-check"></i><b>2.5</b> Unloaded weights</a></li>
-<li class="chapter" data-level="2.6" data-path="geometric-design-considerations-turning-radius-sight-distance-etc..html"><a href="geometric-design-considerations-turning-radius-sight-distance-etc..html"><i class="fa fa-check"></i><b>2.6</b> Geometric design considerations (turning radius, sight distance, etc.)</a></li>
+<li class="chapter" data-level="2.4" data-path="physical-dimensions.html"><a href="physical-dimensions.html"><i class="fa fa-check"></i><b>2.4</b> Physical Dimensions</a></li>
+<li class="chapter" data-level="2.5" data-path="unloaded-and-loaded-weight-characteristics.html"><a href="unloaded-and-loaded-weight-characteristics.html"><i class="fa fa-check"></i><b>2.5</b> Unloaded and Loaded Weight Characteristics</a></li>
+<li class="chapter" data-level="2.6" data-path="performance-characteristics-accel-decel-speed-governing-etc..html"><a href="performance-characteristics-accel-decel-speed-governing-etc..html"><i class="fa fa-check"></i><b>2.6</b> Performance characteristics (accel, decel, speed governing, etc.)</a></li>
+<li class="chapter" data-level="2.7" data-path="geometric-design-considerations-turning-radius-sight-distance-etc..html"><a href="geometric-design-considerations-turning-radius-sight-distance-etc..html"><i class="fa fa-check"></i><b>2.7</b> Geometric design considerations (turning radius, sight distance, etc.)</a></li>
 </ul></li>
 <li class="chapter" data-level="3" data-path="loading-characteristics.html"><a href="loading-characteristics.html"><i class="fa fa-check"></i><b>3</b> Loading Characteristics</a>
 <ul>
@@ -235,16 +258,42 @@
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="performance-characteristics-accel-decel-speed-governing-etc." class="section level2 hasAnchor" number="2.4">
-<h2><span class="header-section-number">2.4</span> Performance characteristics (accel, decel, speed governing, etc.)<a href="performance-characteristics-accel-decel-speed-governing-etc..html#performance-characteristics-accel-decel-speed-governing-etc." class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="performance-characteristics-accel-decel-speed-governing-etc." class="section level2 hasAnchor" number="2.6">
+<h2><span class="header-section-number">2.6</span> Performance characteristics (accel, decel, speed governing, etc.)<a href="performance-characteristics-accel-decel-speed-governing-etc..html#performance-characteristics-accel-decel-speed-governing-etc." class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Acceleration</strong></p>
+<p>Vehicle acceleration is a function of tractive effort (the force used to propel the vehicle forward) and resistance forces (the forces that resist/impede the forward motion of a vehicle). The available tractive effort is a function of the powertrain (engine and transmission). The total tractive effort that can be utilized is also limited by the forces between the tire-pavement interface; however, this aspect is rarely the limiting factor given the large weights of commercial vehicles.</p>
+<p><em>Engine</em></p>
+<p>Insert image of PACCAR engine</p>
+<p><em>Transmission</em></p>
+<p>Insert image of Detroit DT12 Transmission
+12 speeds</p>
+<p><em>Primary Resistance Forces</em></p>
+<p>Aerodynamic<br />
+- air density, frontal area, coefficient of drag
+Grade<br />
+- weight, roadway incline
+Rolling<br />
+- weight, coefficient of rolling resistance</p>
+<p>Ranges of drag coefficients (Source: Tables 2.2 and 2.3, <span class="citation">Mannering and Washburn (<a href="#ref-mannering2019principles">2019</a>)</span>)<br />
+Automobile: 0.25 - 0.55<br />
+Sedan-style vehicles (e.g., Honda Accord) will have drag coefficients on the lower end of this range. SUV and pick-up trucks will have drag coefficients on the higher end of this range</p>
+<p>Tractor-Trailer: 0.6-1.3<br />
+Tractors with roof and side fairings will generally have drag coefficients on the lower end of this range.</p>
+<p>Commercial trucks have larger frontal areas (approximated as the product of width and height of the front of the vehicle) and coefficients of drag. For example, the frontal area of a tractor truck is approximately 63.8 ft^2 (7.5 ft (width) x 8.5 ft (height)). Whereas, the frontal area of a common passenger vehicle, say a Honda Accord is only approximately 29.3 ft^2 (6.1 ft (width) x 4.8 ft (height)).</p>
+</div>
+<h3>References</h3>
+<div id="refs" class="references csl-bib-body hanging-indent">
+<div id="ref-mannering2019principles" class="csl-entry">
+Mannering, Fred L., and Scott S. Washburn. 2019. <em>Principles of Highway Engineering and Traffic Analysis, 7e</em>. John Wiley &amp; Sons, Hoboken, NJ.
+</div>
 </div>
             </section>
 
           </div>
         </div>
       </div>
-<a href="semi-trailer.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="unloaded-weights.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="unloaded-and-loaded-weight-characteristics.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="geometric-design-considerations-turning-radius-sight-distance-etc..html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>

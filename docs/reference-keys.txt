@@ -5,6 +5,10 @@ fig:FHWAvehicleClassifications
 fig:TractorNoSleeper
 fig:TractorWithSleeper
 tab:DesignVehDimensions
+fig:DimensionsIllustration1
+fig:DimensionsIllustration2
+fig:TurningRadiiWB62
+fig:TurningRadiiWB67
 fig:FigurePortCranesYokohama
 fig:FigurePortCranesMiami
 fig:FigureContainerShip1
@@ -44,8 +48,9 @@ VehChars
 VehChars-Classes
 tractor-truck
 semi-trailer
+physical-dimensions
+unloaded-and-loaded-weight-characteristics
 performance-characteristics-accel-decel-speed-governing-etc.
-unloaded-weights
 geometric-design-considerations-turning-radius-sight-distance-etc.
 loading-characteristics
 maximum-load-without-permit-max-load-with-permit-route-restrictions-time-of-day-restrictions

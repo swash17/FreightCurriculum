@@ -25,7 +25,7 @@
 <meta name="author" content="Lili Du, University of Florida, https://www.essie.ufl.edu/people/name/lili-du/" />
 
 
-<meta name="date" content="2023-08-25" />
+<meta name="date" content="2023-08-27" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -33,7 +33,7 @@
   
   
 <link rel="prev" href="tractor-truck.html"/>
-<link rel="next" href="performance-characteristics-accel-decel-speed-governing-etc..html"/>
+<link rel="next" href="physical-dimensions.html"/>
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
@@ -60,6 +60,28 @@
 <style type="text/css">
   
   div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+</style>
+<style type="text/css">
+/* Used with Pandoc 2.11+ new --citeproc when CSL is used */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
 </style>
 
 <link rel="stylesheet" href="style.css" type="text/css" />
@@ -104,9 +126,10 @@
 <li class="chapter" data-level="2.1" data-path="VehChars-Classes.html"><a href="VehChars-Classes.html"><i class="fa fa-check"></i><b>2.1</b> Vehicle Classifications</a></li>
 <li class="chapter" data-level="2.2" data-path="tractor-truck.html"><a href="tractor-truck.html"><i class="fa fa-check"></i><b>2.2</b> Tractor Truck</a></li>
 <li class="chapter" data-level="2.3" data-path="semi-trailer.html"><a href="semi-trailer.html"><i class="fa fa-check"></i><b>2.3</b> Semi-Trailer</a></li>
-<li class="chapter" data-level="2.4" data-path="performance-characteristics-accel-decel-speed-governing-etc..html"><a href="performance-characteristics-accel-decel-speed-governing-etc..html"><i class="fa fa-check"></i><b>2.4</b> Performance characteristics (accel, decel, speed governing, etc.)</a></li>
-<li class="chapter" data-level="2.5" data-path="unloaded-weights.html"><a href="unloaded-weights.html"><i class="fa fa-check"></i><b>2.5</b> Unloaded weights</a></li>
-<li class="chapter" data-level="2.6" data-path="geometric-design-considerations-turning-radius-sight-distance-etc..html"><a href="geometric-design-considerations-turning-radius-sight-distance-etc..html"><i class="fa fa-check"></i><b>2.6</b> Geometric design considerations (turning radius, sight distance, etc.)</a></li>
+<li class="chapter" data-level="2.4" data-path="physical-dimensions.html"><a href="physical-dimensions.html"><i class="fa fa-check"></i><b>2.4</b> Physical Dimensions</a></li>
+<li class="chapter" data-level="2.5" data-path="unloaded-and-loaded-weight-characteristics.html"><a href="unloaded-and-loaded-weight-characteristics.html"><i class="fa fa-check"></i><b>2.5</b> Unloaded and Loaded Weight Characteristics</a></li>
+<li class="chapter" data-level="2.6" data-path="performance-characteristics-accel-decel-speed-governing-etc..html"><a href="performance-characteristics-accel-decel-speed-governing-etc..html"><i class="fa fa-check"></i><b>2.6</b> Performance characteristics (accel, decel, speed governing, etc.)</a></li>
+<li class="chapter" data-level="2.7" data-path="geometric-design-considerations-turning-radius-sight-distance-etc..html"><a href="geometric-design-considerations-turning-radius-sight-distance-etc..html"><i class="fa fa-check"></i><b>2.7</b> Geometric design considerations (turning radius, sight distance, etc.)</a></li>
 </ul></li>
 <li class="chapter" data-level="3" data-path="loading-characteristics.html"><a href="loading-characteristics.html"><i class="fa fa-check"></i><b>3</b> Loading Characteristics</a>
 <ul>
@@ -239,38 +262,38 @@
 <h2><span class="header-section-number">2.3</span> Semi-Trailer<a href="semi-trailer.html#semi-trailer" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>A semi-trailer does not include a front axle.</p>
 <p>Commonly used trailer types include the following (not an exhaustive list):</p>
-<p>Box Trailer (Dry Van Trailer)
-- fully enclosed
-- typical cargo: non-perishable goods, construction-related products, and cargo that does not require temperature control
-- typical length: 53 ft</p>
-<p>Intermodal Trailer (Container Chassis)
-- used to transport intermodal shipping containers to and from container depots, seaports, rail yards, and other shipping facilities
-- typical length: 20 or 40 ft cargo container</p>
-<p>Flatbed Trailer
-- flat deck with no containment, doors, or roof to enclose loads. Thus, provide considerable flexibility for un/loading and laying out loads.
-- primarily used for shipping construction materials and various equipment. Essentially, any load that does not require protection from weather and other elements can be transported using flatbed trailers.
-- typical length: 48 ft, 53 ft</p>
-<p>Side Curtain Trailer
-- combines the loading benefits of a flatbed trailer with a ceiling, front wall, and rear doors for cargo containment and protection, but allows for side loading.
-- Consumer goods, lumber, etc.
-- typical length: 40 ft</p>
-<p>Refrigerator Trailer (Reefer Trailer)
-- equipped with a built-in temperature control system and insulation to protect temperature-sensitive shipments
-- typical cargo: Food (meat, fish, dairy, etc.), Pharmaceuticals, and similar
-- typical length: 48 ft, 53 ft</p>
-<p>Tanker Trailer
-- cylindrical and used to carry liquids
-- typical cargo: Petrochemicals, dry food, beverages, asphalt
-- typical length: 53 ft</p>
-<p>Dry Bulk Trailers (pneumatic tankers)
-- used to transport dry goods, such as flour, maize, cement, sand, and similar commodities. These tankers are fully enclosed and vacuum-sealed to prevent any type of leakage.
-- typical length: 20 ft, 40 ft</p>
-<p>Lowboy Trailer
-- features a very low deck, The primary purpose of this trailer type is to transport tall equipment or cargo without the need to obtain height permits.
-- typical cargo: Large equipment and machinery, Lowboys are generally used to transport oversized materials from mining sites, bulldozers, heavy machinery, large vehicles, and excavators.</p>
-<p>Car Carrier Trailer (Car Hauler Trailer)
-- typical cargo: Vehicles (Sedans, SUVs, trucks, etc.)</p>
 <p>Add a photo of each trailer type</p>
+<p><strong>Box Trailer (Dry Van Trailer)</strong><br />
+- Fully enclosed<br />
+- Typical cargo: non-perishable goods, construction-related products, and cargo that does not require temperature control<br />
+- Typical length: 53 ft</p>
+<p><strong>Intermodal Trailer (Container Chassis)</strong><br />
+- Used to transport intermodal shipping containers to and from container depots, seaports, rail yards, and other shipping facilities<br />
+- Typical length: 20 or 40 ft cargo container</p>
+<p><strong>Flatbed Trailer</strong><br />
+- A flat deck with no containment, doors, or roof to enclose loads. Thus, provide considerable flexibility for un/loading and laying out loads.
+- Primarily used for shipping construction materials and various equipment. Essentially, any load that does not require protection from weather and other elements can be transported using flatbed trailers.
+- Typical length: 48 ft, 53 ft</p>
+<p><strong>Side Curtain Trailer</strong><br />
+- Combines the loading benefits of a flatbed trailer with a ceiling, front wall, and rear doors for cargo containment and protection, but allows for side loading.
+- Used to transport consumer goods, lumber, etc.
+- Typical length: 40 ft</p>
+<p><strong>Refrigerator Trailer (Reefer Trailer)</strong><br />
+- equipped with a built-in temperature control system and insulation to protect temperature-sensitive shipments
+- Typical cargo: Food (meat, fish, dairy, etc.), Pharmaceuticals, and similar
+- Typical length: 48 ft, 53 ft</p>
+<p><strong>Tanker Trailer</strong><br />
+- Cylindrical design and used to carry liquids
+- Typical cargo: Petrochemicals, dry food, beverages, asphalt
+- Typical length: 53 ft</p>
+<p><strong>Dry Bulk Trailers (pneumatic tankers)</strong><br />
+- used to transport dry goods, such as flour, maize, cement, sand, and similar commodities. These tankers are fully enclosed and vacuum-sealed to prevent any type of leakage.
+- Typical length: 20 ft, 40 ft</p>
+<p><strong>Lowboy Trailer</strong><br />
+- Features a very low deck. The primary purpose of this trailer type is to transport tall equipment or cargo without the need to obtain height permits.
+- Typical cargo: Large equipment and machinery, Lowboys are generally used to transport oversized materials from mining sites, bulldozers, heavy machinery, large vehicles, and excavators.</p>
+<p><strong>Car Carrier Trailer (Car Hauler Trailer)</strong><br />
+- Typical cargo: Vehicles (Sedans, SUVs, trucks, etc.)</p>
 </div>
             </section>
 
@@ -278,7 +301,7 @@
         </div>
       </div>
 <a href="tractor-truck.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="performance-characteristics-accel-decel-speed-governing-etc..html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="physical-dimensions.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
