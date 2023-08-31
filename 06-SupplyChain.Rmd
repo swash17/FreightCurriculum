@@ -209,7 +209,59 @@ One railroad keeps a pool of truck chassis to help maximize truck hauling capaci
 
 2.The operations and capital investment of the freight rail industry has been estimated to support 1.1 percent of U.S. workers.  
 
-3.Railroads account for around 1/3 of U.S. exports by volume without which we would not be competitive in the global market. 
+3.Railroads account for around 1/3 of U.S. exports by volume without which we would not be competitive in the global market.
+
+## Distribution centers {#SupplyChain- Distributioncenters}
+
+1. Distribution Center: a facility that performs consolidation, warehousing, packaging, decomposition, and other functions linked with handling freight. Orders are received, processed, and filled. Their main purpose is to provide value-added services to freight, which is stored for relatively short time periods (days or weeks). Goods stored in a distribution center have usually been sold and are in transit to their destination. They can also perform light manufacturing activities such as assembly and labeling.
+
+2. Functions of a Distribution Center
+* Inventory Management:
+  DCs store inventory to meet fluctuating demand.
+  Centralized inventory allows for better control and optimization.
+  
+* Order Fulfillment:
+  DCs process incoming orders, picking, packing, and shipping products.
+  Enables timely delivery, enhancing customer satisfaction.
+ 
+* Cost Reduction through Aggregation:
+  Combining products from multiple sources for cost-effective transportation.
+  Minimizes shipping expenses and maximizes economies of scale.
+
+3. Strategic Management for Distribution Centers
+* Network Optimization:
+  Strategic placement of DCs for optimal geographic coverage.
+  Reduces transportation costs, and enhances responsiveness.
+
+* Technology Integration:
+  Implementing advanced technologies like automation and robotics.
+  Increases efficiency, accuracy, and order processing speed.
+
+* Data-Driven Insights:
+  Gathering and analyzing data on demand patterns, inventory turnover, and order processing times.
+  Informed decision-making for inventory planning and customer service improvements.
+
+* Flexibility and Adaptability:
+  Designing DCs to accommodate changes in demand and product assortment.
+  Supports quick adjustments to market trends and customer preferences.
+  
+```{r DCImage, echo=FALSE, fig.cap='Distribution Center', fig.width=6, fig.align='center'}
+knitr::include_graphics("./Images/supplychain/distribution center.png")
+``` 
+Source: https://crashstats.nhtsa.dot.gov/Api/Public/ViewPublication/813375
+
+## Logistics {#SupplyChain-Logistics}
+
+1. Logistic: The planning, execution, and management of the flow of goods, information, and resources within a supply chain.
+* Forward Logistics
+  Forward logistics deals with the forward movement of goods, from sourcing raw materials and manufacturing them into products, through their procurement, storage, and sales, to transportation and last-mile delivery to consumers.
+
+* Reverse Logistics
+  Reverse logistics is the process in delivery operations that controls the return movement of products from their final destination. The main goal is to capture value or properly dispose of failed deliveries.
+
+```{r DCImage, echo=FALSE, fig.cap='Logistic Process', fig.width=6, fig.align='center'}
+knitr::include_graphics("./Images/supplychain/Forward-Reverse-Logistics.png")
+``` 
 
 ## First/ Last Mile {#SupplyChain-FirstandLastMile}
 
