@@ -263,14 +263,37 @@ Source: https://crashstats.nhtsa.dot.gov/Api/Public/ViewPublication/813375
 knitr::include_graphics("./Images/supplychain/Forward-Reverse-Logistics.png")
 ``` 
 
+## Routing {#Supply Chain-Routing}
+The process of planning and executing the most efficient and cost-effective delivery routes for transporting goods from a supplier to the end customer.
+
+1. Benefits
+* Reduce costs
+* Improve delivery service and customer satisfaction
+* Cut carbon emissions
+
+```{r DCImage, echo=FALSE, fig.cap='Route Optimization', fig.width=6, fig.align='center'}
+knitr::include_graphics("./Images/supplychain/Routing.png")
+```
+
+2. Common routing Problems
+* Vehicle Routing Problem(VRP): Finding the most efficient routes for a fleet of vehicles to deliver goods or services to a set of customers while minimizing costs and meeting certain constraints.
+* Capacitated Vehicle Routing Problem(CVRP): The vehicles have a limited carrying capacity of the goods that must be delivered.
+* Vehicle Routing Problem With Time Windows(VRPTW): The delivery locations have time windows within which the deliveries (or visits) must be made.
+* Vehicle Routing Problem With Pickup and Delivery(VRPPD): Includes pickup and delivery tasks in addition to the standard customer visits. Vehicles are tasked with not only delivering goods to customers but also picking up items from other locations and delivering them to different destinations.
+
+```{r DCImage, echo=FALSE, fig.cap='Vechile Routing Problem', fig.width=6, fig.align='center'}
+knitr::include_graphics("./Images/supplychain/VRP.png")
+```
+
+
 ## First/ Last Mile {#SupplyChain-FirstandLastMile}
 
 ## What Is First/Last Mile? {#SupplyChain-whatismile}
 What is First Mile?
 Depending on the Industry it can mean many things:
-A manufacture may consider the First Mile when their completed goods are shipped from factory to their distribution hub. 
-A retailer may consider the First Mile when manufactured goods are shipped from suppliers' distribution hub to the retailer's distribution center. 
-E-commerce may consider the First Mile to be when the goods are transferred to the courier that will deliver the good to the costumer's home. 
+A manufacturer may consider the First Mile when their completed goods are shipped from the factory to their distribution hub. 
+A retailer may consider the First Mile when manufactured goods are shipped from the suppliers' distribution hub to the retailer's distribution center. 
+E-commerce may consider the First Mile to be when the goods are transferred to the courier that will deliver the goods to the customer's home. 
 But in short, First Mile is when the good travels through the first leg of the supply chain. 
 
  
@@ -280,13 +303,13 @@ knitr::include_graphics("./Images/SupplyChain/First and Last Mile.jpg")
 
 What is Last Mile?
 
-Last Mile refers to the last phase of the supply chain process for the delivery of good or people.
+Last Mile refers to the last phase of the supply chain process for the delivery of goods or people.
 
-Last Mile can be range anywhere from a couple of blocks to a couple 100 miles. The distance is determined by the network of the supply chain for the specific good being transported. 
+Last Mile can range anywhere from a couple of blocks to a couple 100 miles. The distance is determined by the network of the supply chain for the specific goods being transported. 
 
 1. Last Mile for Transporting Goods
 For transporting goods, the last 
-mile may be the route taken by an Amazon driver to drop of packages.
+mile may be the route taken by an Amazon driver to drop off packages.
 The route taken by an 
 autonomous robot to deliver food. 
 
@@ -302,10 +325,10 @@ knitr::include_graphics("./Images/SupplyChain/First and Last Mile Operation.jpg"
 ```
 
 The concept of Last Mile was first introduced in the telecommunications industry. 
-The industry’s Last Mile is the bandwidth that is delivered to the costumer. 
-The telecommunications network is like a “tree”. Bandwidth that travels in high capacity are known as “trunks”; the trunks branch out into “twigs” which serve as the Last Mile.
+The industry’s Last Mile is the bandwidth that is delivered to the customer. 
+The telecommunications network is like a “tree”. Bandwidth that travels in high capacity is known as “trunks”; the trunks branch out into “twigs” which serve as the Last Mile.
 
-The Last Mile is a bandwidth bottleneck because there is a limit to how much   data can be transferred to the costumer. 
+The Last Mile is a bandwidth bottleneck because there is a limit to how much   data can be transferred to the customer. 
 The Last Mile is also the most expensive because of all the equipment needed   per customer and the number of customers that exist. 
 
 ```{r Figure 7.13, echo=FALSE, fig.cap='How Networks are Built', fig.width=4, fig.align='center'}
@@ -334,7 +357,7 @@ knitr::include_graphics("./Images/SupplyChain/How does it relate to Transportati
  
 Movement of Goods
 
-1.Last Mile regarding the movement of goods is the final step in the supply chain that moves goods from the distributor/facility to the costumer. 
+1.Last Mile regarding the movement of goods is the final step in the supply chain that moves goods from the distributor/facility to the customer. 
 2.Last Mile usually involves parcel or small package carriers to deliver products
 3.According to research done by straits, Last Mile Delivery market size is expected to reach $123 Billion USD by 2030 from the $40.5 Billion USD valuation given in 2021. 
 4.This is due to an increase in e-commerce and then COVID-19 further fueled the trend of ordering online. 
