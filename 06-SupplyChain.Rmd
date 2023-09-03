@@ -251,8 +251,9 @@ knitr::include_graphics("./Images/supplychain/distribution center.png")
 Source: https://crashstats.nhtsa.dot.gov/Api/Public/ViewPublication/813375
 
 ## Logistics {#SupplyChain-Logistics}
+What is Logistics?
+The planning, execution, and management of the flow of goods, information, and resources within a supply chain.
 
-1. Logistic: The planning, execution, and management of the flow of goods, information, and resources within a supply chain.
 * Forward Logistics
   Forward logistics deals with the forward movement of goods, from sourcing raw materials and manufacturing them into products, through their procurement, storage, and sales, to transportation and last-mile delivery to consumers.
 
@@ -264,6 +265,7 @@ knitr::include_graphics("./Images/supplychain/Forward-Reverse-Logistics.png")
 ``` 
 
 ## Routing {#Supply Chain-Routing}
+What is Routing?
 The process of planning and executing the most efficient and cost-effective delivery routes for transporting goods from a supplier to the end customer.
 
 1. Benefits
