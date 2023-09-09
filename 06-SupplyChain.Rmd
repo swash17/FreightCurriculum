@@ -211,7 +211,7 @@ One railroad keeps a pool of truck chassis to help maximize truck hauling capaci
 
 3.Railroads account for around 1/3 of U.S. exports by volume without which we would not be competitive in the global market.
 
-## Distribution centers {#SupplyChain- Distributioncenters}
+## Distribution centers {#SupplyChain-Distributioncenters}
 
 1. Distribution Center: a facility that performs consolidation, warehousing, packaging, decomposition, and other functions linked with handling freight. Orders are received, processed, and filled. Their main purpose is to provide value-added services to freight, which is stored for relatively short time periods (days or weeks). Goods stored in a distribution center have usually been sold and are in transit to their destination. They can also perform light manufacturing activities such as assembly and labeling.
 
@@ -245,8 +245,8 @@ One railroad keeps a pool of truck chassis to help maximize truck hauling capaci
   Designing DCs to accommodate changes in demand and product assortment.
   Supports quick adjustments to market trends and customer preferences.
   
-```{r DCImage, echo=FALSE, fig.cap='Distribution Center', fig.width=6, fig.align='center'}
-knitr::include_graphics("./Images/supplychain/distribution center.png")
+```{r DCImage1, echo=FALSE, fig.cap='Distribution Center', fig.width=6, fig.align='center'}
+knitr::include_graphics("./Images/SupplyChain/distribution center.png")
 ``` 
 Source: https://crashstats.nhtsa.dot.gov/Api/Public/ViewPublication/813375
 
@@ -260,11 +260,11 @@ The planning, execution, and management of the flow of goods, information, and r
 * Reverse Logistics
   Reverse logistics is the process in delivery operations that controls the return movement of products from their final destination. The main goal is to capture value or properly dispose of failed deliveries.
 
-```{r DCImage, echo=FALSE, fig.cap='Logistic Process', fig.width=6, fig.align='center'}
-knitr::include_graphics("./Images/supplychain/Forward-Reverse-Logistics.png")
+```{r DCImage2, echo=FALSE, fig.cap='Logistic Process', fig.width=6, fig.align='center'}
+knitr::include_graphics("./Images/SupplyChain/Forward-Reverse-Logistics.png")
 ``` 
 
-## Routing {#Supply Chain-Routing}
+## Routing {#SupplyChain-Routing}
 What is Routing?
 The process of planning and executing the most efficient and cost-effective delivery routes for transporting goods from a supplier to the end customer.
 
@@ -273,8 +273,8 @@ The process of planning and executing the most efficient and cost-effective deli
 * Improve delivery service and customer satisfaction
 * Cut carbon emissions
 
-```{r DCImage, echo=FALSE, fig.cap='Route Optimization', fig.width=6, fig.align='center'}
-knitr::include_graphics("./Images/supplychain/Routing.png")
+```{r DCImage3, echo=FALSE, fig.cap='Route Optimization', fig.width=6, fig.align='center'}
+knitr::include_graphics("./Images/SupplyChain/Routing.png")
 ```
 
 2. Common routing Problems
@@ -283,8 +283,8 @@ knitr::include_graphics("./Images/supplychain/Routing.png")
 * Vehicle Routing Problem With Time Windows(VRPTW): The delivery locations have time windows within which the deliveries (or visits) must be made.
 * Vehicle Routing Problem With Pickup and Delivery(VRPPD): Includes pickup and delivery tasks in addition to the standard customer visits. Vehicles are tasked with not only delivering goods to customers but also picking up items from other locations and delivering them to different destinations.
 
-```{r DCImage, echo=FALSE, fig.cap='Vechile Routing Problem', fig.width=6, fig.align='center'}
-knitr::include_graphics("./Images/supplychain/VRP.png")
+```{r DCImage4, echo=FALSE, fig.cap='Vechile Routing Problem', fig.width=6, fig.align='center'}
+knitr::include_graphics("./Images/SupplyChain/VRP.png")
 ```
 
 
