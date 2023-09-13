@@ -73,6 +73,10 @@ Add a photo of each trailer type
 - Primarily used for shipping construction materials and various equipment. Essentially, any load that does not require protection from weather and other elements can be transported using flatbed trailers.
 - Typical length: 48 ft, 53 ft
 
+```{r TrailerFlatbed, echo=FALSE, fig.cap='Flatbed Trailer', out.width="90%", fig.align='center'}
+knitr::include_graphics("./Images/VehicleChars/TrailerFlatbed.png")
+```
+
 **Side Curtain Trailer**  
 - Combines the loading benefits of a flatbed trailer with a ceiling, front wall, and rear doors for cargo containment and protection, but allows for side loading.
 - Used to transport consumer goods, lumber, etc.
@@ -88,6 +92,10 @@ Add a photo of each trailer type
 - Typical cargo: Petrochemicals, dry food, beverages, asphalt
 - Typical length: 53 ft
 
+```{r TrailerTanker, echo=FALSE, fig.cap='Tanker Trailer', out.width="70%", fig.align='center'}
+knitr::include_graphics("./Images/VehicleChars/TrailerTanker.jpg")
+```
+
 **Dry Bulk Trailers (pneumatic tankers)**  
 - used to transport dry goods, such as flour, maize, cement, sand, and similar commodities. These tankers are fully enclosed and vacuum-sealed to prevent any type of leakage. 
 - Typical length: 20 ft, 40 ft
@@ -98,6 +106,11 @@ Add a photo of each trailer type
 
 **Car Carrier Trailer (Car Hauler Trailer)**  
 - Typical cargo: Vehicles (Sedans, SUVs, trucks, etc.)
+
+```{r TrailerCarHauler, echo=FALSE,out.width="50%", fig.show="hold"}
+knitr::include_graphics("./Images/VehicleChars/TrailerCarHaulerEmpty.png")
+knitr::include_graphics("./Images/VehicleChars/TrailerCarHaulerFull.png")
+```
 
 ## Physical Dimensions
 

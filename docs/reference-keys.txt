@@ -4,11 +4,14 @@ fig:FreightByValueImage
 fig:FHWAvehicleClassifications
 fig:TractorNoSleeper
 fig:TractorWithSleeper
+fig:TrailerFlatbed
+fig:TrailerTanker
 tab:DesignVehDimensions
 fig:DimensionsIllustration1
 fig:DimensionsIllustration2
 fig:TurningRadiiWB62
 fig:TurningRadiiWB67
+fig:DCImage1
 fig:FigurePortCranesYokohama
 fig:FigurePortCranesMiami
 fig:FigureContainerShip1
@@ -80,6 +83,9 @@ SupplyChain-whatisRailport
 SupplyChain-Railporttypes
 SupplyChain-Railportservice
 SupplyChain-Railportimpact
+SupplyChain-Distributioncenters
+SupplyChain-Logistics
+SupplyChain-Routing
 SupplyChain-FirstandLastMile
 SupplyChain-whatismile
 SupplyChain-relation
