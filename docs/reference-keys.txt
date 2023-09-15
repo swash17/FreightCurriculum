@@ -4,8 +4,8 @@ fig:FreightByValueImage
 fig:FHWAvehicleClassifications
 fig:TractorNoSleeper
 fig:TractorWithSleeper
-fig:TrailerFlatbed
 fig:TrailerTanker
+fig:TrailerFlatbed
 tab:DesignVehDimensions
 fig:DimensionsIllustration1
 fig:DimensionsIllustration2

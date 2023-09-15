@@ -73,10 +73,6 @@ Add a photo of each trailer type
 - Primarily used for shipping construction materials and various equipment. Essentially, any load that does not require protection from weather and other elements can be transported using flatbed trailers.
 - Typical length: 48 ft, 53 ft
 
-```{r TrailerFlatbed, echo=FALSE, fig.cap='Flatbed Trailer', out.width="90%", fig.align='center'}
-knitr::include_graphics("./Images/VehicleChars/TrailerFlatbed.png")
-```
-
 **Side Curtain Trailer**  
 - Combines the loading benefits of a flatbed trailer with a ceiling, front wall, and rear doors for cargo containment and protection, but allows for side loading.
 - Used to transport consumer goods, lumber, etc.
@@ -103,6 +99,10 @@ knitr::include_graphics("./Images/VehicleChars/TrailerTanker.jpg")
 **Lowboy Trailer**  
 - Features a very low deck. The primary purpose of this trailer type is to transport tall equipment or cargo without the need to obtain height permits.
 - Typical cargo: Large equipment and machinery, Lowboys are generally used to transport oversized materials from mining sites, bulldozers, heavy machinery, large vehicles, and excavators. 
+
+```{r TrailerFlatbed, echo=FALSE, fig.cap='Flatbed Trailer', out.width="90%", fig.align='center'}
+knitr::include_graphics("./Images/VehicleChars/TrailerLowboy.png")
+```
 
 **Car Carrier Trailer (Car Hauler Trailer)**  
 - Typical cargo: Vehicles (Sedans, SUVs, trucks, etc.)
