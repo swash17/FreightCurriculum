@@ -1,10 +1,4 @@
 --- 
-title: "Introduction to Freight Transportation"
-author:
-  - "Scott S. Washburn, University of Florida, https://swash.essie.ufl.edu"
-  - "Evangelos Kaiser, Florida Atlantic University, http://www.eng.fau.edu/directory/faculty/kaisar/"
-  - "Lili Du, University of Florida, https://www.essie.ufl.edu/people/name/lili-du/"
-date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 output: bookdown::gitbook
 documentclass: book
@@ -16,11 +10,77 @@ description: "Material designed for an introduction to freight transportation co
 ---
 
 
-# Preface {-}
+# {-}
 
-This material is intended for an introduction to freight transportation course.Initial development of this material was sponsored by the Freight Mobility Research Institute (http://eng.fau.edu/research/fmri/).
+:::: {.orangebox data-latex=""}
+::: {.center data-latex=""}
+<h1 style="text-align: center;"><b>Introduction to Freight Transportation</h1>
+:::
+::::
 
-An example figure is shown in Figure \@ref(fig:PortImage)
+<p></p>
+
+```{r, echo=FALSE, out.width='90%', fig.asp=.75, fig.align='center'}
+knitr::include_graphics("./Images/TitlePageImage1.png")
+```
+Photo Source: Scott S. Washburn
+
+<p></p>
+<p></p>
+
+This material is intended for an introduction to freight transportation course. The material is organized analogous to a slide presentation. It is not designed to serve as a textbook. Correspondingly, the narrative text is kept to a minimum. It is intended that this material will be heavily supplemented by an instructor's own notes and discussion.
+
+Initial development of this material was sponsored by the Freight Mobility Research Institute (https://eng.fau.edu/research/fmri/).
+
+The authors of the initial version of this material are the following:
+
+| Name | Affiliation | Contact Information
+:-----:|:-----:|:-----:|
+Scott S. Washburn | University of Florida | https://swash.essie.ufl.edu |
+Evangelos Kaiser | Florida Atlantic University | http://www.eng.fau.edu/directory/faculty/kaisar/ |
+Lili Du | University of Florida | https://www.essie.ufl.edu/people/name/lili-du/ |
+
+## Format {-}
+
+This material was developed using Bookdown [@R-bookdown]. It is a robust and dynamic format that combines the advantages of HyperText Markup Language (HTML) and GitHub (https://github.com/). More information about Bookdown can be found at https://pkgs.rstudio.com/bookdown/ and https://github.com/rstudio/bookdown.
+
+When updates to this material are made, the user can view a record of such updates through GitHub 'Actions' (include URL)
+
+### Navigating the document {-}
+
+Several features are provided to facilitate navigating the material. These features are primarily contained within the toolbar at the top of the page and the sidebar panel on the left side of the page.
+
+***Top Toolbar***
+
+The "hamburger" menu icon toggles the display of the sidebar (table of contents). The hourglass icon toggles a search textbook, which will appear in the upper-left corner of the page. This will locate the search term throughout the entire Guidebook. The standard CTRL+F function can be used to search for text within the active page; for example, a chapter or appendix page. The letter 'A' icon provides options for adjusting font size and style and changing the color theme.
+
+Edit icon: This opens up the source for the page on Github. It is not currently active.
+
+Download icon: This provides options for downloading a PDF or EPub version of the Guidebook. It is not currently active.
+
+Information icon: Shows keyboard shortcuts that can be used to navigate the document.
+
+***Sidebar***
+
+The sidebar contains the table of contents.
+
+From https://bookdown.org/yihui/bookdown/html.html
+"The first- and second-level headings appear in the current chapter’s sidebar, which sticks to the top of the page as you scroll down. When a section is navigated to, third-level subheadings like “A subsection” will auto-expand."
+
+If an item in the table of contents is truncated because the text is too wide, you can hover the cursor over it to see a tooltip showing the full text.
+
+By default, only first- and second-level headings are displayed. If you click on a second-level heading with the cursor, it will expand and display any third-level headings if they are present. Clicking the second-level heading again will hide the third-level headings.
+
+### How to provide feedback on this document {-#ProvidingFeedback}
+
+The preferred mechanism for submitting feedback is to submit an 'Issue' to the Guidebook source material site. From the [Issues Page](https://github.com/swash17/FreightCurriculum/issues), press the 'New issue' button. This method does require that you have a GitHub account. If you do not have one, you can create one for free at [GitHub Signup](https://github.com/signup).
+
+Alternatively, if you do not wish to create a GitHub account or are unable to, you can send an Email to [Dr. Scott Washburn](mailto:swash@ce.ufl.edu) and/or [Dr. Evangelos Kaiser](mailto:ekaisar@fau.edu) and/or [Dr. Lili Du](mailto:lili.du@essie.ufl.edu) to report the issue.
+
+With either method of providing feedback, please be as specific, yet concise, as possible in your description/discussion.
+
+
+
 
 
 ```{r eval=FALSE, echo=FALSE}
@@ -28,13 +88,6 @@ install.packages("bookdown")
 # or the development version
 # devtools::install_github("rstudio/bookdown")
 ```
-
-```{r PortImage, echo=FALSE, fig.cap='Port of Miami Partial Schematic', out.width='90%', fig.asp=.75, fig.align='center'}
-knitr::include_graphics("./Images/PortOfMiami.bmp")
-```
-
-
-
 
 
 ```{r include=FALSE}
